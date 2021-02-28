@@ -9,7 +9,28 @@ var companyLogos = {
 	"Bloomberg": "./images/companies/bloomberg.png",
 	"Intuit": "./images/companies/intuit.svg",
 	"Wells Fargo": "./images/companies/wellsfargo.png",
-	"Bytedance": "./images/companies/bytedance.png"
+	"Bytedance": "./images/companies/bytedance.png",
+	"Visa": "./images/companies/visa.png",
+	"American Express": "./images/companies/american.png",
+	"Citibank": "./images/companies/citibank.png",
+	"CodeNation": "./images/companies/codenation.png",
+	"Codenation": "./images/companies/codenation.png",
+	"Samsung": "./images/companies/samsung1.png",
+	"Groww": "./images/companies/groww.png",
+	"Goldman Sachs": "./images/companies/goldman.png",
+	"Fivetran": "./images/companies/fivetran.png",
+	"Sprinklr": "./images/companies/sprinklr.png",
+	"Schlumberger": "./images/companies/schlumberger1.png",
+	"BrowserStack": "./images/companies/browserstack1.png",
+	"Dunzo": "./images/companies/dunzo.png",
+	"Oyo": "./images/companies/oyo.png",
+	"Optum": "./images/companies/optum.png",
+	"Dream 11": "./images/companies/dream11.png",
+	"Delhivery": "./images/companies/delhivery1.png",
+	"Testbook": "./images/companies/testbook.png",
+	"GeeksforGeeks": "./images/companies/gfg.png",
+	"Duetsche Bank": "./images/companies/deutsche.png",
+	"Airbus": "./images/companies/airbus.png"
 }
 
 
@@ -60,7 +81,7 @@ function showInstructor(data) {
 	}
 	$('#ins-speaks').html(html);
 
-	html = `<button type="button" class="btn btn-info mb-2 mr-2" disabled="true">` + data.lang + `</button>`;
+	html = ``;
 	for (let i=0; i<data.expertise.length; i++) {
 		html += `<button type="button" class="btn btn-outline-info mb-2 mr-2" disabled="true">` + data.expertise[i] + `</button>`;
 	}
