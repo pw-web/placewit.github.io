@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 
 function getInstructorData() {
-	// toggleLoaderByDiv("courses-loader", "courses", true, false);
+	showFullLoader();
 	$.ajax({
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructor/" + instructorId,
@@ -34,7 +34,7 @@ function getInstructorData() {
 			window.location = "./join.html";
 		},
 		complete: function() {
-			// toggleLoaderByDiv("courses-loader", "courses", false, false);
+			hideFullLoader();
 		}
 	});
 }
