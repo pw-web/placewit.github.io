@@ -23,7 +23,7 @@
 		<meta property="og:url" content="https://placewit.com" />
 		<meta property="og:title" content="Placewit" />
 		<meta property="og:description" content="Placewit equips the students with latest industry-level tech skills for placements. Up-skill yourself for placements and get job-ready with Placewit." />
-	    <meta name="keywords" content="placewit, placewit.com, placewit, dce, dtu, nsit, nsut, igdtu, igdtuw, placement, job, bootcamp, referral, career, coach, free, pay later, no upfront cost, isa" />
+	    <meta name="keywords" content="placewit, placewit.com, placewit, dce, dtu, nsit, nsut, igdtu, igdtuw, placement, job, bootcamp, referral, career, coach, free, pay later, no upfront cost, isa, nit, iit, bits, vit, coding, programming, competitive" />
 
 		<link href="https://fonts.googleapis.com/css?family=Domine:400,700|Maven+Pro:400,500,700,900|Montserrat:300,400,600,700" rel="stylesheet">
 
@@ -37,6 +37,13 @@
 		<script src="./javascripts/jquery-3.2.1.min.js"></script>
 		<script src="./javascripts/popper.min.js"></script>
 		<script src="./javascripts/bootstrap.min.js"></script>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 	</head>
 	<body>
 
@@ -78,7 +85,7 @@
 					<a class="nav-link ml-lg-3 smooth-scroll" href="./curriculum.html">Curriculum</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link ml-lg-3 smooth-scroll" href="#payment">Payment Plan</a>
+					<a class="nav-link ml-lg-3 smooth-scroll" href="#structure">Course Structure</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link ml-lg-3 smooth-scroll" href="#application-process">Application</a>
@@ -87,7 +94,7 @@
 					<a class="nav-link ml-lg-3 smooth-scroll" href="./faq.html">FAQ</a>
 				</li>
 				<li class="nav-item">
-					<a class="yellow-button ml-lg-4 apply-button" target="_blank" href="https://classroom.placewit.com/apply" role="button" id="yellow-button-navbar">APPLY NOW</a>
+					<a class="yellow-button ml-lg-4 apply-button" target="_blank" href="./join.html" role="button" id="yellow-button-navbar">JOIN NOW</a>
 				</li>
 			</ul>
 			</div>
@@ -100,19 +107,18 @@
 		<header id="homepage-header">
 		<div class="row no-gutters">
 			<div class="col-12 col-lg-7 col-xl-8">
-				<h2 id="tagline-header">Become a better engineer!</h2>
+				<h2 id="tagline-header">Upskill yourself for placement season!</h2>
 			</div>
 			<div class="col-12 col-lg-7 col-xl-8">
 				<p id="copy-header">Placewit provides an interactive classroom experience to grow the best engineers by helping them develop their skills and get placed in amazing companies.
 				<br/>
-				The best part? <strong>Our students don’t have to pay until they get a job!</strong>
+				The best part? <strong>Learn from instructors and mentors from top tech companies!</strong>
 				</p>
 				<p><br></p>
 			</div>
 			<div class="w-100"></div>
 			<div class="col-12 col-md-4 col-lg-3" style="text-align: center;">
-				<a class="yellow-button apply-button" href="https://classroom.placewit.com/apply" target="_blank" role="button" id="yellow-button-header" style="margin-bottom: 10px;">APPLY NOW</a>
-				<span class="H2-Subtitle" style="color: black;margin-bottom: 134px;"><b>Deadline:</b> 22nd Dec. 2020</span>
+				<a class="yellow-button apply-button shadow smooth-scroll" href="#application-process" role="button" id="yellow-button-header" style="margin-bottom: 10px;">Join Placewit</a>
 			</div>
 		</div>
 		<div class="col-12" style="margin-top: 20px;">
@@ -143,23 +149,23 @@
 		<div class="col-12 col-lg-7 H2-Subtitle mx-auto" id="life-changing-experience-subtitle">
 			Develop your skills in a curriculum specially curated according to your college placements.
 		</div>
-		<div class="life-changing-selling-points">
+		<div class="life-changing-selling-points" data-aos="fade-up">
 		<div class="row">
 			<div class="col-md-4 big float-left">
 				<i class="fas fa-rupee-sign fa-3x experience-fa"></i>
-				<h3>NO UPFRONT COST</h3>
-				<p>You owe us nothing until you get placed. Pay us later when you get a job.
+				<h3>LIVE CLASSES</h3>
+				<p>Master coding and interview skills through our interactive live online classes.
 				</p>
 			</div>
 			<div class="col-md-4">
 				<i class="fas fa-laptop-code fa-3x experience-fa"></i>
-				<h3>LIVE CLASSES</h3>
+				<h3>ELITE INSTRUCTORS</h3>
 				<p>Learn from instructors and mentors from Amazon, Flipkart, Atlassian, Microsoft, etc.</p>
 			</div>
 			<div class="col-md-4 big float-right">
 				<i class="fas fa-briefcase fa-3x experience-fa"></i>
-				<h3>JOB GUARANTEE</h3>
-				<p>Get guaranteed placement offers upto <b>Rs. 15 Lakh</b> and above.</p>
+				<h3>COMPACT BATCHES</h3>
+				<p>Get personalized coaching and mentorship, quick doubt resolution, in small batches.</p>
 			</div>
 		</div>
 		</div>
@@ -168,28 +174,31 @@
 	</div>
 
 
-	<!-- INDEX PAYMENT PLAN -->
+	<!-- INDEX COURSE FEATURES -->
 
-	<div class="row no-gutters" id="payment">
+	<div class="row no-gutters" id="structure">
 	<div class="regular-content">
 	<div class="container">
-		<div class="col-12 col-lg-5 mx-auto">
-			<h2 id="tuition-title">No Upfront Cost</h2>
+		<div class="col-12 col-lg-6 mx-auto">
+			<h2 id="tuition-title">The Secret Sauce</h2>
 		</div>
 
 		<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="tuition-subtitle">
-		You only pay us when you get placed and start earning. Once you earn <b>at least minimum guaranteed CTC</b>, you pay us 14% of your CTC, for 1.5 years or until you reach a &#x20b9;1.5 Lakh cap.
+			<h3>Complete Placement Preparation</h3>
+		Acquire all the skills you need for an amazing placement through<br/>live <b>coding</b> classes, <b>mock interviews</b> from experts, <b>resume</b> reviews, and regular <b>mentorship</b>.
 		</div>
 
 		<div class="col-md-8 col-lg-6 mx-auto no-padding">
-		<div class="white-card">
-			<div class="big-number">&#x20b9;7.5k</div>
-			<div class="big-number-cont">REGISTRATION</div>
+		<div class="white-card" data-aos="zoom-in">
+			<div class="big-number">3</div>
+			<div class="big-number-cont">MONTHS</div>
 			<div class="white-card-copy">
 				<p>
-					No tution fee until you start earning.
+					Live Coding Classes
 					<br/>
-					Get <b>&#x20b9;10k refund</b> if we don't fulfil out promises.
+					Warm-up Mock Interviews
+					<br/>
+					Regular Mentorship
 				</p>
 			</div>
 		</div>
@@ -204,11 +213,15 @@
 			<p id="step-1">Complete the program</p>
 		</div>
 
-		<div class="white-card">
-			<div class="big-number">upto &#x20b9;15L</div>
-			<div class="big-number-cont">GUARANTEE</div>
+		<div class="white-card" data-aos="zoom-in">
+			<div class="big-number">1</div>
+			<div class="big-number-cont">MONTH</div>
 			<div class="white-card-copy">
-				<p>Get a job earning at least the minimum guaranteed CTC.</p>
+				<p>
+					Expert Resume Reviews
+					<br/>
+					Mentor Mock Interviews
+				</p>
 			</div>
 		</div>
 
@@ -219,14 +232,14 @@
 			<circle cx="12" cy="90" r="12" />
 			<!-- <circle cx="12" cy="180" r="12" /> -->
 			</svg>
-			<p id="step-1">Pay after placement</p>
+			<p id="step-1">All set for placements</p>
 		</div>
 
-		<div class="white-card">
-			<div class="big-number">14%</div>
-			<div class="big-number-cont">INCOME</div>
+		<div class="white-card" data-aos="zoom-in">
+			<div class="big-number"></div>
+			<div class="big-number-cont">PLACEMENT SEASON</div>
 			<div class="white-card-copy">
-				<p>After you complete the program and get a job earning at least the minimum guaranteed CTC, you pay 14% of your CTC to Placewit.</p>
+				<p>Get <b>secret tips and guidance</b> from our mentors throughout your placement season.</p>
 			</div>
 		</div>
 
@@ -235,7 +248,7 @@
 			<line x1="12" x2="12" y1="6" y2="90" />
 			<circle cx="12" cy="78" r="12" />
 			</svg>
-			<p id="step-3">You stop paying after 1.5 years or when you reach a cap of &#x20b9;1.5 Lakh.</p>
+			<p id="step-3"><small>Bag an <b>amazing placement or internship</b> by cracking tests and interviews of top tech companies.<br/><a href="./curriculum.html" role="button" target="_blank">View Detailed Curriculum</a></small></p>
 		</div>
 		</div>
 
@@ -253,17 +266,12 @@
 	<div class="row no-gutters" id="application-process">
 	<div class="regular-content">
 	<div class="container">
-		<div class="col-12 col-lg-7 mx-auto">
-			<h2 id="application-process-title">Application Process</h2>
-		</div>
-
-		<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="application-process-subtitle">
-			Show us that you are a great student and determined to work hard to get placed in a good company.<br/><br/>
-			<span style="color: black;"><b>Scholarship cum Entrance Test:</b> 24th Dec. 2020</span><br><a href="./feewaiver.html" target="_blank">View scholarship details</a>
+		<div class="col-12 col-lg-5 mx-auto">
+			<h2 id="application-process-title">Join Now</h2>
 		</div>
 
 		<div class="row no-gutters">
-		<div class="col-12 col-lg-10 no-padding mx-auto" id="table-container">
+		<div class="col-12 col-lg-10 mx-auto" id="table-container" style="padding-top: 50px; margin-bottom: 40px;">
 		<div id="application-process-table">
 			<div class="header step-1">
 				<svg width="36" height="36" class="shadow-filter">
@@ -273,9 +281,6 @@
 				<div class="H2-Subtitle">APPLY<br>ONLINE</div>
 			</div>
 			<div class="table-content step-1">
-				<div class="btn application-btn no-click">ONLINE FORM</div>
-				<div class="btn application-btn no-click">UNTIL 22 Dec</div>
-				<p>Apply online by 22nd December, 2:00PM for 2020 batch. We admit only up to <b>25 students per batch</b>.</p>
 			</div>
 
 			<div class="header step-2">
@@ -283,12 +288,9 @@
 				<circle cx="18" cy="18" r="18" />
 				<text x="50%" y="50%" text-anchor="middle" dy=".3em">2</text>
 				</svg>
-				<div class="H2-Subtitle">CODING<br>TEST</div>
+				<div class="H2-Subtitle">CHOOSE<br>INSTRUCTOR</div>
 			</div>
 			<div class="table-content step-2">
-				<div class="btn application-btn no-click">REQUIRED</div>
-				<div class="btn application-btn no-click">24 Dec</div>
-				<p>Show us that you can think as a software developer by solving a few simple algorithmic coding challenges.</p>
 			</div>
 
 			<div class="header step-3">
@@ -296,12 +298,9 @@
 				<circle cx="18" cy="18" r="18" />
 				<text x="50%" y="50%" text-anchor="middle" dy=".3em">3</text>
 				</svg>
-				<div class="H2-Subtitle">INDUCTION<br>PROGRAM</div>
+				<div class="H2-Subtitle">UPSKILL<br>YOURSELF</div>
 			</div>
 			<div class="table-content step-3">
-				<div class="btn application-btn no-click">REQUIRED</div>
-				<div class="btn application-btn no-click">ONLINE</div>
-				<p>A program designed by industry leaders for a guided approach for cracking interviews and placements.</p>
 			</div>
 
 			<div class="header step-4">
@@ -309,24 +308,240 @@
 				<circle cx="18" cy="18" r="18" />
 				<text x="50%" y="50%" text-anchor="middle" dy=".3em">4</text>
 				</svg>
-				<div class="H2-Subtitle">CLASSROOM<br>PROGRAM</div>
+				<div class="H2-Subtitle">AMAZING<br>PLACEMENT</div>
 			</div>
 			<div class="table-content step-4">
-				<div class="btn application-btn no-click">LIVE</div>
-				<div class="btn application-btn no-click">4-6 MONTHS</div>
-				<p>Passing all the previous steps will lead you to become a full-time student of our live classroom program.</p>
 			</div>
 		</div>
 		</div>
 		</div>
 
-		<div class="col-12 col-md-4 mx-auto floated-center">
-			<a class="yellow-button apply-button" href="https://classroom.placewit.com/apply" target="_blank" role="button" id="yellow-button-application-process">APPLY NOW</a>
-			<p class="copy-after-button">Placewit is completely free until you get a job<sup></sup></p>
+		<div class="row no-gutters">
+		<div class="col-12 col-lg-10 no-padding mx-auto">
+		<div class="slider" id="lemmeslide">
+			<div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+                <div class="mentor-col-inner">
+                	<img class="avatar" src="images/priyanka.jpg">
+                    <h3>Priyanka<br/>Singh</h3>
+                    <p>
+                    	Flipkart
+                    </p>
+                    <a href="https://www.linkedin.com/in/priyanka-singh-55a78174/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+                <div class="mentor-col-inner">
+                	<img class="avatar" src="images/sachin.jpg">
+                    <h3>Sachin<br/>Garg</h3>
+                    <p>
+                    	Atlassian
+                    </p>
+                    <a href="https://www.linkedin.com/in/sachinjnd/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+                <div class="mentor-col-inner">
+                	<img class="avatar" src="images/shruti.jpg">
+                    <h3>Shruti<br/>Bansal</h3>
+                    <p>
+                    	Sprinklr
+                    </p>
+                    <a href="https://www.linkedin.com/in/shruti-bansal-092241146/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+                <div class="mentor-col-inner">
+                	<img class="avatar" src="images/aman.jpg">
+                    <h3>Aman<br/>Garg</h3>
+                    <p>
+                    	Amazon
+                    </p>
+                    <a href="https://www.linkedin.com/in/heizaman/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+                <div class="mentor-col-inner">
+                	<img class="avatar" src="images/tejas.jpg">
+                    <h3>Tejas<br/>Porwal</h3>
+                    <p>
+                    	<img width="70%" src="./images/companies/microsoft.png" alt="Microsoft" style="margin: auto; margin-top: 5px;">
+                    </p>
+                    <a href="https://www.linkedin.com/in/tejas-porwal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+		</div>
+		</div>
+		</div>
+
+		<!-- <div class="col-12 col-md-4 mx-auto floated-center">
+			<a class="yellow-button apply-button" href="https://classroom.placewit.com/apply" target="_blank" role="button" id="yellow-button-application-process">JOIN NOW</a>
+			<p class="copy-after-button">Choose any Placewit Instructor</p>
+		</div> -->
+
+		<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="application-process-subtitle" style="margin-bottom: 40px;">
+			<br/><b>Choose anyone</b> from our set of<br/>elite instructors from top companies.<br/>
 		</div>
 	</div>
 	</div>
 	</div>
+
+
+
+
+	<section>
+	  <div class="container py-5">
+
+	    <div class="row text-center align-items-end">
+	      <!-- Pricing Table-->
+	      <div class="col-lg-4 mb-5 mb-lg-0">
+	        <div class="bg-white p-5 rounded-lg shadow">
+	          <h1 class="h6 font-weight-bold mb-1" style="color: black;">Platform Access</h1>
+	          <h2 class="h1 font-weight-bold"><span class="text-small font-weight-normal mr-2"><del>&#x20b9; 6599</del></span><br/>&#x20b9; 6599</h2>
+
+	          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+	          <ul class="list-unstyled my-5 text-small text-left">
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Interactive Learning Platform</li>
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Peer Learning</li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Live Coding Classes</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Dedicated Mentors</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Mock Interviews (3)</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Placement Guidance</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Resume Building</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Expert Resume Reviews</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Mentor Mock Interviews (2)</del>
+	            </li>
+	          </ul>
+	          <a class="yellow-button apply-button shadow apply-button-table apply-button-table-off" role="button" id="yellow-button-application-process">Unavailable</a>
+			  <p class="copy-after-button copy-after-button-table">Self-paced</p>
+	        </div>
+	      </div>
+	      <!-- END -->
+
+
+	      <!-- Pricing Table-->
+	      <div class="col-lg-4 mb-5 mb-lg-0">
+	        <div class="bg-white p-5 rounded-lg shadow">
+	          <h1 class="h6 font-weight-bold mb-1" style="color: black;">Starting From</h1>
+	          <h2 class="h1 font-weight-bold"><span class="text-small font-weight-normal mr-2"><del>&#x20b9; 6599</del></span><br/>&#x20b9; 6599</h2>
+
+	          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+	          <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Interactive Learning Platform</li>
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Peer Learning</li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Live Coding Classes
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Dedicated Mentors
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Mock Interviews (3)
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Placement Guidance
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Resume Building</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Expert Resume Reviews</del>
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-times mr-2"></i>
+	              <del>Mentor Mock Interviews (2)</del>
+	            </li>
+	          </ul>
+	          <a class="yellow-button apply-button shadow apply-button-table" href="./join.html" target="_blank" role="button" id="yellow-button-application-process">JOIN NOW</a>
+			  <p class="copy-after-button copy-after-button-table">Choose any instructor</p>
+	        </div>
+	      </div>
+	      <!-- END -->
+
+
+	      <!-- Pricing Table-->
+	      <div class="col-lg-4">
+	        <div class="bg-white p-5 rounded-lg shadow">
+	          <h1 class="h6 font-weight-bold mb-1" style="color: black;">Starting From</h1>
+	          <h2 class="h1 font-weight-bold"><span class="text-small font-weight-normal mr-2"><del>&#x20b9; 6599</del></span><br/>&#x20b9; 6599</h2>
+
+	          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+
+	          <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Interactive Learning Platform</li>
+	            <li class="mb-3 pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i> Peer Learning</li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Live Coding Classes
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Dedicated Mentors
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Mock Interviews (3)
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Placement Guidance
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Resume Building
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Expert Resume Reviews
+	            </li>
+	            <li class="mb-3 text-muted pricing-li">
+	              <i class="fa fa-check mr-2 text-primary"></i>
+	              Mentor Mock Interviews (2)
+	            </li>
+	          </ul>
+	          <a class="yellow-button apply-button shadow apply-button-table" href="./join.html" target="_blank" role="button" id="yellow-button-application-process">JOIN NOW</a>
+			  <p class="copy-after-button copy-after-button-table">Choose any instructor</p>
+	        </div>
+	      </div>
+	      <!-- END -->
+
+	    </div>
+	  </div>
+	</section>
+
 
 	<!-- INDEX COMMUNITY -->
 
@@ -352,54 +567,139 @@
 					<h2 id="global-community-title">An Awesome Community</h2>
 				</div>
 				<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle">
-					Our students, instructors and mentors come from different colleges, companies, and walks of life.<br>
-					Joining Placewit means you’ll create amazing connections, make new friends, and
-					leverage diverse opportunities.
-					<br>
-					<a href="./mentors.html" target="_blank">Meet our mentors</a>
+					Our students, instructors and mentors come from different colleges, companies, and walks of life.
 				</div>
 			</div>
 
-		</div>
-		</div>
-
-		<div class="container" id="community-testimonials">
-			<div class="row community-container">
-				<div class="col-md-6 order-1 order-md-1 content copy-rectangle my-auto">
-				<div class="blue-rectangle left"></div>
-				<div class="col-md-10">
-				<h3>Experienced Instructors</h3>
-				<p>Our instructors are top notch and strive to maintain the highest quality teaching standards to help the students in their long journey ahead</p>
+			<div class="outer-grid college-grid">
+				<div class="inner-grid">
+					<img src="./images/college/iitdelhi.png" alt="IIT Delhi">
 				</div>
+				<div class="inner-grid">
+					<img src="./images/college/iitbhubaneswar.png" alt="IIT Bhubaneswar">
 				</div>
+				<div class="inner-grid">
+					<img src="./images/college/dtu.png" alt="DTU">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nsut.png" alt="NSUT">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/bitspilani.png" alt="BITS">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/iitropar.png" alt="IIT Ropar">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/iiitallahabad.png" alt="IIIT Allahabad">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/iitbhu.jpg" alt="IIT B.H.U.">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nittrichy.png" alt="NIT Trichy">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nitcalicut.png" alt="NIT Calicut">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nitdurgapur.png" alt="NIT Durgapur">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/mnitbhopal.png" alt="MNIT Bhopal">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nitsilchar.png" alt="NIT Silchar">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nitrourkela.png" alt="NIT Rourkela">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/college/nitjalandhar.png" alt="NIT Jalandhar">
+				</div>
+				<div class="inner-grid college-hide-mid college-hide-lg">
+					<img src="./images/college/nitpatna.png" alt="NIT Patna">
+				</div>
+				<div class="inner-grid college-hide-mid college-hide-lg">
+					<img src="./images/college/jadavpur.png" alt="Jadavpur University">
+				</div>
+				<div class="inner-grid college-hide-mid">
+					<img src="./images/college/ismdhanbad.png" alt="ISM Dhanbad">
+				</div>
+			</div>
 
-				<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 ml-md-auto order-2 order-md-2 content logos-rectangle">
-					<img src="./images/companies/microsoft.png" alt="Microsoft">
-					<img src="./images/companies/walmart.png" alt="Walmart">
+			<hr style="margin-top: 50px;" />
+
+			<div class="outer-grid company-grid">
+				<div class="inner-grid">
+					<img src="./images/companies/google.svg" alt="Google">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/amazon.svg" alt="Amazon">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/microsoft.svg" alt="Microsoft">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/uber.svg" alt="Uber">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/flipkart.svg" alt="Flipkart">
+				</div>
+				<div class="inner-grid">
 					<img src="./images/companies/sprinklr.png" alt="Sprinklr">
-
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/directi.jpg" alt="Directi">
+				</div>
+				<div class="inner-grid">
 					<img src="./images/companies/codenation.png" alt="CodeNation">
 				</div>
-			</div>
-
-			<div class="row community-container">
-				<div class="col-md-6 offset-md-0 col-lg-5 offset-lg-1 mr-md-auto order-4 order-md-3 content logos-rectangle">
-					<img src="./images/companies/amazon.png" alt="Amazon">
+				<div class="inner-grid">
 					<img src="./images/companies/atlassian.png" alt="Atlassian">
-					<img src="./images/companies/flipkart.png" alt="Flipkart">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/walmart.svg" alt="Walmart">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/schlumberger.jpg" alt="Schlumberger">
+				</div>
+				<div class="inner-grid">
 					<img src="./images/companies/samsung.png" alt="Samsung">
 				</div>
-
-				<div class="col-md-6 order-3 order-md-4 content copy-rectangle my-auto">
-				<div class="blue-rectangle right"></div>
-				<div class="col-md-10 ml-md-auto">
-				<h3>World-Class Mentors</h3>
-				<p>Placewit regularly conducts sessions from mentors working at the world’s leading companies to share their vast knowledge on necessary topics</p>
-				<a href="./mentors.html" role="button" target="_blank">Meet our mentors</a>
+				<div class="inner-grid">
+					<img src="./images/companies/bloomberg.png" alt="Bloomberg">
 				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/medianet.png" alt="Media.net">
+				</div>
+				<div class="inner-grid">
+					<img src="./images/companies/intuit.svg" alt="Intuit">
+				</div>
+				<div class="inner-grid company-hide-mid company-hide-lg">
+					<img src="./images/companies/deutschebank.jpg" alt="Deutsche Bank">
+				</div>
+				<div class="inner-grid company-hide-mid company-hide-lg">
+					<img src="./images/companies/browserstack.png" alt="BrowserStack">
+				</div>
+				<div class="inner-grid company-hide-lg">
+					<img src="./images/companies/bytedance.png" alt="Bytedance">
 				</div>
 			</div>
+
+			<div class="row" style="margin-top: 90px;">
+				<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle">
+					Joining Placewit means you’ll create an amazing network, make new connections, and
+					leverage diverse opportunities.
+					<br>
+					<a class="yellow-button apply-button shadow apply-button-end" href="./join.html" target="_blank" role="button" id="yellow-button-application-process">JOIN NOW</a>
+				</div>
+			</div>
+
 		</div>
+		</div>
+
+		
 	</div>
 
 </div>
@@ -460,10 +760,10 @@
 			</div>
 			<ul class="footer-list">
 				<li>
-					<a href="https://classroom.placewit.com/apply" target="_blank" class="footer-link apply-button">Apply</a>
+					<a href="./join.html" target="_blank" class="footer-link apply-button">Join Now</a>
 				</li>
 				<li>
-					<a href="./index.html#payment" class="footer-link">Payment Plan</a>
+					<a href="./index.html#structure" class="footer-link">Course Structure</a>
 				</li>
 				<li>
 					<a href="./index.html#application-process" class="footer-link">Application</a>
@@ -480,7 +780,8 @@
 </footer>
 
 
-
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 	</body>
 
@@ -495,4 +796,348 @@
 	</script>
 
 	<script src="./javascripts/contactme.js"></script>
+
+	<script>
+		AOS.init({
+			duration: 1200,
+		})
+
+		$(document).ready(function(){
+		  $('#lemmeslide').slick({
+		    autoplay: true,
+		    autoplaySpeed: 3000,
+		    dots: true,
+		    slidesToShow: 3,
+   			slidesToScroll: 1,
+   			arrows: true,
+            responsive: [
+		        {
+		            breakpoint: 480, // mobile breakpoint
+		            settings: {
+		                slidesToShow: 1,
+		            }
+		        }
+    		]
+        
+		  });
+		});
+
+	</script>
+
+	<style type="text/css">
+		
+		.slick-prev:before, .slick-next:before{
+		    color: #000044;
+		}
+
+		.slick-list {
+			padding-top: 30px;
+		}
+
+		.slick-slide {
+			outline: none;
+		}
+
+	</style>
+
+	<style type="text/css">
+		
+		.mentor-col {
+			padding: 0px 2.5vw;
+		    box-sizing: border-box;
+		    position: relative;
+		    display: block;
+		    transition: transform .2s;
+		    margin-bottom: 30px;
+		}
+
+		.mentor-col:hover {
+		    transform: scale(1.1);
+		    cursor: pointer;
+		}
+
+		.mentor-col-inner {
+			box-shadow: 1.8px 3px 21.5px 0 rgba(0,0,0,0.1);
+		    padding: 40px;
+		    border-radius: 15px;
+		    background: white;
+		    text-align: center;
+		}
+
+		.avatar {
+		  vertical-align: middle;
+		  width: 60px;
+		  height: 60px;
+		  border-radius: 50%;
+		  margin-bottom: 20px;
+		  display: inline-block !important;
+		}
+
+		.mentor-col-inner h3 {
+			margin-bottom: 0;
+			font-size: 1.5rem; 
+		}
+
+		.mentor-col-inner p {
+			margin-bottom: 0; 
+		}
+
+		.mentor-row {
+
+		}
+
+		.table-content {
+			padding: 0 !important;
+		}
+
+	</style>
+
+	<style type="text/css">
+		
+		.rounded-lg {
+		  border-radius: 1rem !important;
+		}
+
+		.text-small {
+		  font-size: 0.9rem !important;
+		}
+
+		.custom-separator {
+		  width: 5rem;
+		  height: 6px;
+		  border-radius: 1rem;
+		}
+
+		.text-uppercase {
+		  letter-spacing: 0.2em;
+		}
+
+		@media (max-width: 991px) {
+			.pricing-li {
+				text-align: center;
+			}
+		}
+
+		.copy-after-button-table {
+			margin-bottom: 0 !important;
+		}
+
+		.apply-button-table {
+			margin-top: 0 !important;
+		}
+
+		.apply-button-table-off {
+			background-color: #d3d3d3;
+		}
+
+		.apply-button-table-off::hover {
+			background-color: #d3d3d3;
+		}
+
+		a:active.apply-button-table-off, a:hover.apply-button-table-off, a:focus.apply-button-table-off {
+		    background-color: #d3d3d3;;
+		}
+
+	</style>
+
+	<style type="text/css">
+		#stripe-row {
+			background: white;
+		}
+
+		#global-community {
+			padding-bottom: 120px;
+		}
+
+		.apply-button-end {
+			margin-top: 25px !important;
+		}
+
+		.logos-rectangle {
+    		display: grid;
+		    grid-template-columns: none;
+		    justify-items: center;
+		    align-items: center;
+		    position: relative;
+		    z-index: 105;
+		    overflow: visible;
+		    padding-top: 40px; 
+		    padding-bottom: 0; 
+		}
+	</style>
+
+
+	<style type="text/css">	
+		.outer-grid {
+		   display: flex;
+		   flex-wrap: wrap;
+		   padding: 0 4px;
+		}
+		.college-grid .inner-grid {
+		   flex: 12.5%;
+		   max-width: 12.5%;
+		   padding: 0 4px;
+		   text-align: center;
+		}
+		.college-grid .inner-grid img {
+		   margin-top: 8px;
+		   width: 80%;
+		   padding: 10px;
+		}
+
+		.college-grid .college-hide-mid {
+			display: initial;
+		}
+
+		.college-grid .college-hide-lg {
+			display: none;
+		}
+		@media screen and (max-width: 800px) {
+		   .college-grid .inner-grid {
+		      flex: 20%;
+		      max-width: 20%;
+		   }
+
+		   .college-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.college-grid .college-hide-lg {
+				display: initial;
+			}
+
+			.college-grid .college-hide-mid {
+				display: none;
+			}
+		}
+		@media screen and (max-width: 600px) {
+		   .college-grid .inner-grid {
+		      flex: 33.3%;
+		      max-width: 33.3%;
+		   }
+
+		   .college-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.college-grid .college-hide-mid {
+				display: initial;
+			}
+
+			.college-grid .college-hide-lg {
+				display: initial;
+			}
+		}
+		@media screen and (max-width: 400px) {
+		   .college-grid .inner-grid {
+		      flex: 50%;
+		      max-width: 50%;
+		   }
+
+		   .college-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.college-grid .college-hide-mid {
+				display: initial;
+			}
+
+			.college-grid .college-hide-lg {
+				display: initial;
+			}
+		}
+	</style>
+
+	<style type="text/css">
+		.outer-grid {
+		   display: flex;
+		   flex-wrap: wrap;
+		   padding: 0 4px;
+		}
+		.company-grid .inner-grid {
+		   flex: 20%;
+		   max-width: 20%;
+		   padding: 0 4px;
+		   text-align: center;
+		}
+		.company-grid .inner-grid img {
+		   margin-top: 8px;
+		   width: 80%;
+		   padding: 10px;
+		}
+
+		.company-grid .company-hide-mid {
+			display: initial;
+		}
+
+		.company-grid .company-hide-lg {
+			display: none;
+		}
+		@media screen and (max-width: 800px) {
+		   .company-grid .inner-grid {
+		      flex: 25%;
+		      max-width: 25%;
+		   }
+
+		   .company-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.company-grid .company-hide-lg {
+				display: initial;
+			}
+
+			.company-grid .company-hide-mid {
+				display: none;
+			}
+		}
+		@media screen and (max-width: 600px) {
+		   .company-grid .inner-grid {
+		      flex: 33.3%;
+		      max-width: 33.3%;
+		   }
+
+		   .company-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.company-grid .company-hide-mid {
+				display: initial;
+			}
+
+			.company-grid .company-hide-lg {
+				display: initial;
+			}
+		}
+		@media screen and (max-width: 400px) {
+		   .company-grid .inner-grid {
+		      flex: 50%;
+		      max-width: 50%;
+		   }
+
+		   .company-grid .inner-grid img {
+			   margin-top: 8px;
+			   width: 80%;
+			   padding: 10px;
+			}
+
+			.company-grid .company-hide-mid {
+				display: initial;
+			}
+
+			.company-grid .company-hide-lg {
+				display: initial;
+			}
+		}
+	</style>
 </html>

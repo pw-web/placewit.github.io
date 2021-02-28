@@ -1491,14 +1491,14 @@ p.student-location {
 }
 
 /* payment */
-#payment {
+#structure {
   background-color: #ffffff;
   position: relative;
   padding: 105px 0 119px;
   z-index: 100;
   overflow: hidden;
 }
-#payment::after {
+#structure::after {
   content: "";
   background-color: var(--very-light-blue);
   display: block;
@@ -1580,16 +1580,16 @@ p.student-location {
   height: 90px;
   margin-bottom: 119px;
 }
-#payment svg {
+#structure svg {
   justify-self: center;
 }
-#payment svg line {
+#structure svg line {
   stroke: #3e396b;
   fill: none;
   stroke-width: 3px;
   stroke-dasharray: 22px 8px;
 }
-#payment svg circle {
+#structure svg circle {
   fill: #3e396b;
 }
 #step-1,
@@ -1635,7 +1635,7 @@ p.student-location {
   left: 12vw; /*156px;*/
 }
 @media (max-width: 767.98px) {
-  #payment {
+  #structure {
     padding: 74px 0 56px;
   }
   #tuition-title {
