@@ -63,7 +63,11 @@ function showInstructors(instructors) {
 
 		let data = JSON.parse(ins.data);
 		let insCompany = data.company.slice(0, 2).join(", ");
-		let $elem = $('<div class="col-lg-6 mentor-col ' + data.lang.toLowerCase() + '"  data-price="' + data.fee + '" />');
+		let filterLang = data.lang.toLowerCase();
+		if(filterLang == "c++") {
+			filterLang = "cpp";
+		}
+		let $elem = $('<div class="col-lg-6 mentor-col ' + filterLang + '"  data-price="' + data.fee + '" />');
 
 		let html = `
 		
