@@ -23,16 +23,15 @@ function getInstructorData() {
 		url: "https://classroom.placewit.com/apis/instructor/" + instructorId,
 		success: function(response) {
 			if (response.status == 'success') {
-				console.log(response);
 				showInstructor(response.data);
 			}
 			else {
-				alert("Error!");      
-				// window.location = "/code";
+				window.location = "./join.html";
 			}
 		},
 		error: function(xhr, status, err) {
 			console.log(err.toString());
+			window.location = "./join.html";
 		},
 		complete: function() {
 			// toggleLoaderByDiv("courses-loader", "courses", false, false);

@@ -10,16 +10,15 @@ function getAllInstructors() {
 		url: "https://classroom.placewit.com/apis/instructors",
 		success: function(response) {
 			if (response.status == 'success') {
-				console.log(response);
 				showInstructors(response.data.instructors);
 			}
 			else {
-				alert("Error!");      
-				// window.location = "/code";
+				window.location = "./index.html";
 			}
 		},
 		error: function(xhr, status, err) {
 			console.log(err.toString());
+			window.location = "./index.html";
 		},
 		complete: function() {
 			// toggleLoaderByDiv("courses-loader", "courses", false, false);
