@@ -81,13 +81,13 @@ function showInstructor(data) {
 	}
 	$('#ins-speaks').html(html);
 
-	html = ``;
+	html = `<button type="button" class="btn btn-info mb-2 mr-2" disabled="true">` + data.lang + `</button>`;
 	for (let i=0; i<data.expertise.length; i++) {
 		html += `<button type="button" class="btn btn-outline-info mb-2 mr-2" disabled="true">` + data.expertise[i] + `</button>`;
 	}
 	$('#ins-expertise').html(html);
 
-	html = `<button type="button" class="btn btn-info mb-2 mr-2" disabled="true">` + data.lang + `</button>`;
+	html = ``;
 	Object.keys(data.profiles).forEach((key, index) => {
 		html += `<a href="` + data.profiles[key] + `" class="btn btn-outline-primary mb-2 mr-2" target="_blank">` + key + `</a>`;
 	});
