@@ -60,7 +60,7 @@ function showInstructor(data) {
 	}
 	$('#ins-speaks').html(html);
 
-	html = ``;
+	html = `<button type="button" class="btn btn-info mb-2 mr-2" disabled="true">` + data.lang + `</button>`;
 	for (let i=0; i<data.expertise.length; i++) {
 		html += `<button type="button" class="btn btn-outline-info mb-2 mr-2" disabled="true">` + data.expertise[i] + `</button>`;
 	}
