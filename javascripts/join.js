@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 
 function getAllInstructors() {
-	// toggleLoaderByDiv("courses-loader", "courses", true, false);
+	showFullLoader();
 	$.ajax({
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructors",
@@ -21,7 +21,7 @@ function getAllInstructors() {
 			window.location = "./index.html";
 		},
 		complete: function() {
-			// toggleLoaderByDiv("courses-loader", "courses", false, false);
+			hideFullLoader();
 		}
 	});
 }
