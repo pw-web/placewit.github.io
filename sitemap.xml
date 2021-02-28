@@ -4,42 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://placewit.com/</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://placewit.com/program.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://placewit.com/curriculum.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://placewit.com/faq.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://placewit.com/join.html</loc>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://placewit.com/mentors.html</loc>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://placewit.com/privacypolicy.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://placewit.com/terms.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://placewit.com/index.html</loc>
-  <lastmod>2020-10-10T19:25:08+00:00</lastmod>
+  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
