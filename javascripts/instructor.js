@@ -4,7 +4,12 @@ var companyLogos = {
 	"Amazon": "./images/companies/amazon.svg",
 	"Microsoft": "./images/companies/microsoft.svg",
 	"Google": "./images/companies/google.svg",
-	"Atlassian": "./images/companies/atlassian.png"
+	"Atlassian": "./images/companies/atlassian.png",
+	"Uber": "./images/companies/uber.svg",
+	"Bloomberg": "./images/companies/bloomberg.png",
+	"Intuit": "./images/companies/intuit.svg",
+	"Wells Fargo": "./images/companies/wellsfargo.png",
+	"Bytedance": "./images/companies/bytedance.png"
 }
 
 
@@ -77,7 +82,7 @@ function showInstructor(data) {
 	html = ``;
 	for (let i=0; i<data.company.length; i++) {
 		html += `
-		<div class="col-5 col-md-3 logos-rectangle">
+		<div class="col-6 col-md-4 logos-rectangle mt-md-5">
 			<img src="` + companyLogos[data.company[i]] + `" alt="` + data.company[i] + `">
 		</div>`;
 	}
