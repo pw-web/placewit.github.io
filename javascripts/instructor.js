@@ -87,7 +87,7 @@ function showInstructor(data) {
 	}
 	$('#ins-expertise').html(html);
 
-	html = ``;
+	html = `<button type="button" class="btn btn-info mb-2 mr-2" disabled="true">` + data.lang + `</button>`;
 	Object.keys(data.profiles).forEach((key, index) => {
 		html += `<a href="` + data.profiles[key] + `" class="btn btn-outline-primary mb-2 mr-2" target="_blank">` + key + `</a>`;
 	});
