@@ -89,7 +89,7 @@ function showInstructors(instructors) {
 
 				<h4 class="h4 font-weight-bold"><small class="font-weight-normal mr-2"><del>&#x20b9; ` + data.fee + `</del></small>&#x20b9; ` + (data.fee - data.disc) + `</h4>
 
-				<a class="yellow-button apply-button shadow apply-button-instructor" href="./instructor.html?id=` + ins.id + `" target="_blank" role="button" id="yellow-button-application-process">Join Batch</a>
+				<a class="yellow-button apply-button shadow apply-button-instructor" href="/instructor?id=` + ins.id + `" target="_blank" role="button" id="yellow-button-application-process">Join Batch</a>
 			</div>
 		`;
 
