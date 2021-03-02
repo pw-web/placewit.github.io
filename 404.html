@@ -35,7 +35,7 @@
 	</head>
 	<body>
 
-		<div id="notfound">
+		<div id="notfound" style="display: none;">
 			<div class="notfound">
 				<div class="notfound-bg">
 					<div></div>
@@ -60,4 +60,14 @@
 		</div>
 
 	</body>
+
+	<script type="text/javascript">
+		let path = window.location.pathname;
+		if (path.startsWith("/join/")) {
+			window.location.href = "/instructor?name=" + path.substring(6);
+		}
+		else {
+			document.getElementById("notfound").style.display = "block";
+		}
+	</script>
 </html>

@@ -1,4 +1,5 @@
 var instructorId;
+var instructorShortCode;
 
 var companyLogos = {
 	"Amazon": "./images/companies/amazon.svg",
@@ -36,8 +37,16 @@ var companyLogos = {
 
 $(document).ready(function () {
 	instructorId = getParamByName("id");
+	instructorShortCode = getParamByName("name");
+
 	if (instructorId) {
 		getInstructorData();
+	}
+	else if (instructorShortCode) {
+		getInstructorDataByShortCode();
+	}
+	else {
+		window.location.href = "/join";
 	}
 });
 
@@ -48,16 +57,41 @@ function getInstructorData() {
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructor/" + instructorId,
 		success: function(response) {
-			if (response.status == 'success') {
+			if (response.status == 'success' && response.data) {
 				showInstructor(response.data);
 			}
 			else {
-				window.location = "./join.html";
+				window.location = "/join";
 			}
 		},
 		error: function(xhr, status, err) {
 			console.log(err.toString());
-			window.location = "./join.html";
+			window.location = "/join";
+		},
+		complete: function() {
+			hideFullLoader();
+		}
+	});
+}
+
+
+function getInstructorDataByShortCode() {
+	showFullLoader();
+	$.ajax({
+		type: "GET",
+		url: "https://classroom.placewit.com/apis/instructor/short/" + instructorShortCode,
+		success: function(response) {
+			if (response.status == 'success' && response.data && response.data.id) {
+				instructorId = response.data.id;
+				showInstructor(response.data);
+			}
+			else {
+				window.location = "/join";
+			}
+		},
+		error: function(xhr, status, err) {
+			console.log(err.toString());
+			window.location = "/join";
 		},
 		complete: function() {
 			hideFullLoader();
