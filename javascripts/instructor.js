@@ -36,7 +36,8 @@ var companyLogos = {
 	"ClearTax": "./images/companies/cleartax.png",
 	"Tekion Corp": "./images/companies/tekion.png",
 	"Glassdoor": "./images/companies/glassdoor.png",
-	"Staples.com": "./images/companies/staples.png"
+	"Staples.com": "./images/companies/staples.png",
+	"Staples": "./images/companies/staples.png"
 }
 
 
