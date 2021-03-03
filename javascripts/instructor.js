@@ -3,6 +3,7 @@ var instructorShortCode;
 
 var companyLogos = {
 	"Amazon": "./images/companies/amazon.svg",
+	"SDE2 - Amazon US": "./images/companies/amazon.svg",
 	"Microsoft": "./images/companies/microsoft.svg",
 	"Google": "./images/companies/google.svg",
 	"Atlassian": "./images/companies/atlassian.png",
