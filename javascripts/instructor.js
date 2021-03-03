@@ -34,7 +34,9 @@ var companyLogos = {
 	"Airbus": "./images/companies/airbus.png",
 	"RedHat": "./images/companies/redhat.png",
 	"ClearTax": "./images/companies/cleartax.png",
-	"Tekion Corp": "./images/companies/tekion.png"
+	"Tekion Corp": "./images/companies/tekion.png",
+	"Glassdoor": "./images/companies/glassdoor.png",
+	"Staples.com": "./images/companies/staples.png"
 }
 
 
