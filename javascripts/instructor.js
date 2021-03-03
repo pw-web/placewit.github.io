@@ -31,7 +31,10 @@ var companyLogos = {
 	"Testbook": "./images/companies/testbook.png",
 	"GeeksforGeeks": "./images/companies/gfg.png",
 	"Duetsche Bank": "./images/companies/deutsche.png",
-	"Airbus": "./images/companies/airbus.png"
+	"Airbus": "./images/companies/airbus.png",
+	"RedHat": "./images/companies/redhat.png",
+	"ClearTax": "./images/companies/cleartax.png",
+	"Tekion Corp": "./images/companies/tekion.png"
 }
 
 
