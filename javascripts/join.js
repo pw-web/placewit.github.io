@@ -3,6 +3,9 @@ $(document).ready(function () {
 });
 
 
+var allInstructors = {};
+
+
 function getAllInstructors() {
 	showFullLoader();
 	$.ajax({
@@ -10,7 +13,7 @@ function getAllInstructors() {
 		url: "https://classroom.placewit.com/apis/instructors",
 		success: function(response) {
 			if (response.status == 'success') {
-				showInstructors(response.data.instructors);
+				allInstructors = response.data.instructors;
 			}
 			else {
 				window.location = "./index.html";
@@ -27,7 +30,7 @@ function getAllInstructors() {
 }
 
 
-function showInstructors(instructors) {
+function addInstructors(instructors) {
 	let $grid = $('.grid').isotope({
 		itemSelector: '.mentor-col',
 		layoutMode: 'fitRows',
@@ -98,4 +101,15 @@ function showInstructors(instructors) {
 	}
 
 	$grid.isotope('insert', elems);
+}
+
+
+
+
+function showAllInstructors() {
+	if(!jQuery.isEmptyObject(allInstructors)) {
+		addInstructors(allInstructors);
+		$("#init-instructors-div").hide();
+		$(".sort-filter-row").show();
+	}
 }
