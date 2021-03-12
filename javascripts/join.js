@@ -91,10 +91,22 @@ function addInstructors(instructors) {
 				<hr/>
 
 				<h4 class="h4 font-weight-bold"><small class="font-weight-normal mr-2"><del>&#x20b9; ` + data.fee + `</del></small>&#x20b9; ` + (data.fee - data.disc) + `</h4>
+				`;
 
+		if(ins.status == 2) {
+			html +=
+			`
+				<a class="yellow-button apply-button shadow apply-button-instructor apply-button-disabled" role="button" id="yellow-button-application-process">Unavailable</a>
+			</div>
+			`;
+		}
+		else {
+			html +=
+			`
 				<a class="yellow-button apply-button shadow apply-button-instructor" href="/instructor?id=` + ins.id + `" target="_blank" role="button" id="yellow-button-application-process">Join Batch</a>
 			</div>
-		`;
+			`;
+		}
 
 		$elem.append(html);
 		elems.push($elem[0]);
