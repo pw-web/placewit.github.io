@@ -64,6 +64,10 @@ function getInstructorData() {
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructor/" + instructorId,
 		success: function(response) {
+			if (response.data.status == 2) {
+				window.location = "/join";
+			}
+
 			if (response.status == 'success' && response.data) {
 				showInstructor(response.data);
 			}
@@ -88,6 +92,10 @@ function getInstructorDataByShortCode() {
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructor/short/" + instructorShortCode,
 		success: function(response) {
+			if (response.data.status == 2) {
+				window.location = "/join";
+			}
+
 			if (response.status == 'success' && response.data && response.data.id) {
 				instructorId = response.data.id;
 				showInstructor(response.data);
