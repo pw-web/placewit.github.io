@@ -158,7 +158,7 @@ function showInstructor(data) {
 	}
 	$('#ins-company').html(html);
 
-	$('.ins-join-now-1').attr('href', 'https://classroom.placewit.com/apply?type=1&id=' + instructorId);
-	$('.ins-join-now-2').attr('href', 'https://classroom.placewit.com/apply?type=2&id=' + instructorId);
-	$('.ins-join-now-3').attr('href', 'https://classroom.placewit.com/apply?type=3&id=' + instructorId);
+	$('.ins-join-now-1').attr('href', 'https://classroom.placewit.com/applycc?type=1&id=' + instructorId);
+	$('.ins-join-now-2').attr('href', 'https://classroom.placewit.com/applycc?type=2&id=' + instructorId);
+	$('.ins-join-now-3').attr('href', 'https://classroom.placewit.com/applycc?type=3&id=' + instructorId);
 }
