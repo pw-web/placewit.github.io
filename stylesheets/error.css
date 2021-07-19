@@ -1,7 +1,7 @@
 #notfound {
   position: relative;
   height: 100vh;
-  background-color: #002650;
+  background-color: #0083ff;
 }
 
 #notfound .notfound {
@@ -61,7 +61,7 @@
 
 .notfound h1 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 86px;
+  font-size: 65px;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 0;
@@ -82,7 +82,7 @@
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
-  background: #41d3bd;
+  background: #0083ff;
   display: inline-block;
   padding: 15px 30px;
   border-radius: 5px;
@@ -109,7 +109,7 @@
   transition: 0.2s all;
 }
 .notfound-social>a:hover {
-  background-color: #41d3bd;
+  background-color: #0083ff;
 }
 
 @media only screen and (max-width: 767px) {
