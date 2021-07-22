@@ -53,7 +53,7 @@ $(document).ready(function () {
 		getInstructorDataByShortCode();
 	}
 	else {
-		window.location.href = "/join";
+		window.location.href = "./join";
 	}
 });
 
@@ -64,20 +64,21 @@ function getInstructorData() {
 		type: "GET",
 		url: "https://classroom.placewit.com/apis/instructor/" + instructorId,
 		success: function(response) {
-			if (response.data.status == 2) {
-				window.location = "/join";
+			console.log(response);
+			if (response.code == 404 || response.data.status == 2) {
+				window.location = "./join";
 			}
 
 			if (response.status == 'success' && response.data) {
 				showInstructor(response.data);
 			}
 			else {
-				window.location = "/join";
+				window.location = "./join";
 			}
 		},
 		error: function(xhr, status, err) {
 			console.log(err.toString());
-			window.location = "/join";
+			window.location = "./join";
 		},
 		complete: function() {
 			hideFullLoader();
@@ -93,7 +94,7 @@ function getInstructorDataByShortCode() {
 		url: "https://classroom.placewit.com/apis/instructor/short/" + instructorShortCode,
 		success: function(response) {
 			if (response.data.status == 2) {
-				window.location = "/join";
+				window.location = "./join";
 			}
 
 			if (response.status == 'success' && response.data && response.data.id) {
@@ -101,12 +102,12 @@ function getInstructorDataByShortCode() {
 				showInstructor(response.data);
 			}
 			else {
-				window.location = "/join";
+				window.location = "./join";
 			}
 		},
 		error: function(xhr, status, err) {
 			console.log(err.toString());
-			window.location = "/join";
+			window.location = "./join";
 		},
 		complete: function() {
 			hideFullLoader();

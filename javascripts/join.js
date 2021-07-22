@@ -103,7 +103,7 @@ function addInstructors(instructors) {
 		else {
 			html +=
 			`
-				<a class="yellow-button apply-button shadow apply-button-instructor" href="/instructor?id=` + ins.id + `" target="_blank" role="button" id="yellow-button-application-process">Join Batch</a>
+				<a class="yellow-button apply-button shadow apply-button-instructor" href="./instructor?id=` + ins.id + `" target="_blank" role="button" id="yellow-button-application-process">Join Batch</a>
 			</div>
 			`;
 		}
