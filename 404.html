@@ -64,8 +64,11 @@
 
 	<script type="text/javascript">
 		let path = window.location.pathname;
-		if (path.startsWith("/join/") || path.startsWith("/crash-course/join/")) {
-			window.location.href = "./crash-course/instructor?name=" + path.substring(6);
+		if (path.startsWith("/join/")) {
+			window.location.href = "/crash-course/instructor?name=" + path.substring(6);
+		}
+		else if (path.startsWith("/crash-course/join/")) {
+			window.location.href = "/crash-course/instructor?name=" + path.substring(19);
 		}
 		else {
 			document.getElementById("notfound").style.display = "block";
