@@ -6,49 +6,124 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://placewit.com/</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://placewit.com/program.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/postpaid/</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://placewit.com/curriculum.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/crash-course/</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://placewit.com/faq.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/privacypolicy.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://placewit.com/join.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/terms.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://placewit.com/mentors.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
+  <loc>http://placewit.com/index.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://placewit.com/privacypolicy.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://placewit.com/postpaid/index.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://placewit.com/terms.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://placewit.com/postpaid/program.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://placewit.com/index.html</loc>
-  <lastmod>2021-02-28T20:11:23+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://placewit.com/postpaid/curriculum.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/postpaid/faq.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/postpaid/mentors.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/postpaid/privacypolicy.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/postpaid/terms.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/index.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/program.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/curriculum.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/faq.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/join.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/mentors.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/instructor?id=16</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/instructor?id=21</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/instructor?id=23</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/privacypolicy.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://placewit.com/crash-course/terms.html</loc>
+  <lastmod>2021-07-22T12:32:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
