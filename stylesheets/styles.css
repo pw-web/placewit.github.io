@@ -574,6 +574,9 @@ nav.blog-navbar ul li a:focus,
   .life-changing-selling-points .row p {
     padding: 0;
   }
+  .life-changing-selling-points img {
+    width: 100%;
+  }
 }
 
 /* STUDENT LIFE */
@@ -1488,14 +1491,14 @@ p.student-location {
 }
 
 /* payment */
-#structure {
+#payment {
   background-color: #ffffff;
   position: relative;
   padding: 105px 0 119px;
   z-index: 100;
   overflow: hidden;
 }
-#structure::after {
+#payment::after {
   content: "";
   background-color: var(--very-light-blue);
   display: block;
@@ -1577,16 +1580,16 @@ p.student-location {
   height: 90px;
   margin-bottom: 119px;
 }
-#structure svg {
+#payment svg {
   justify-self: center;
 }
-#structure svg line {
+#payment svg line {
   stroke: #3e396b;
   fill: none;
   stroke-width: 3px;
   stroke-dasharray: 22px 8px;
 }
-#structure svg circle {
+#payment svg circle {
   fill: #3e396b;
 }
 #step-1,
@@ -1632,7 +1635,7 @@ p.student-location {
   left: 12vw; /*156px;*/
 }
 @media (max-width: 767.98px) {
-  #structure {
+  #payment {
     padding: 74px 0 56px;
   }
   #tuition-title {
