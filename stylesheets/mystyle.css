@@ -298,3 +298,34 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
     transform-origin: top left;
     z-index: 102;
 }
+
+#faculty-title-1 {
+  background: url(../img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) no-repeat;
+  background-size: 100% 100%;
+  resize: both;
+  background-position: center;
+  padding: 22px 18px 16px;
+  margin: 95px 0 13px;
+  overflow: visible;
+  color: #ffffff;
+}
+
+#faculty-title-2 {
+  background: url(../img/brush-stroke-banner-1-onlygfx-dot-com_4.svg) no-repeat;
+  background-size: 100% 100%;
+  resize: both;
+  background-position: center;
+  padding: 23px 18px 15px;
+  margin: 115px 0 20px;
+  overflow: visible;
+}
+
+@media (max-width: 767.98px) {
+  #faculty-title-1 {
+    margin: 50px -18px 23px;
+  }
+
+  #faculty-title-2 {
+    margin: 55px -18px 20px;
+  }
+}
