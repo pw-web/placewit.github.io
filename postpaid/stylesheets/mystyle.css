@@ -278,3 +278,24 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
     transform-origin: top left;
     z-index: 102;
 }
+
+.wa-link-icon {
+  margin-top:16px;
+}
+.wa-link {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:24px;
+  right:24px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
+  z-index:9999;
+}
+.wa-link:active, .wa-link:hover, .wa-link:focus {
+  color: #FFF;
+}
