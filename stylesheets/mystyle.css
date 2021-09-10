@@ -347,7 +347,62 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
   box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
   z-index:9999;
 }
-
 .wa-link:active, .wa-link:hover, .wa-link:focus {
   color: #FFF;
+}
+
+@media (max-width: 767.98px) {
+  #community-testimonials {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.content-no-skew {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 105;
+  box-sizing: border-box;
+}
+
+.blue-rectangle-no-skew {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.blue-rectangle-no-skew.left {
+  right: 0;
+  bottom: 0;
+}
+
+.blue-rectangle-no-skew.left::after {
+  content: "";
+  background-color: var(--very-light-blue);
+  display: block;
+  width: 150%;
+  height: 100%;
+  min-width: 50vw;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+
+.blue-rectangle-no-skew.right {
+  left: 0;
+  top: 0;
+}
+
+.blue-rectangle-no-skew.right::after {
+  content: "";
+  background-color: var(--very-light-blue);
+  display: block;
+  width: 150%;
+  height: 100%;
+  min-width: 50vw;
+  position: absolute;
+  z-index: -1;
 }
