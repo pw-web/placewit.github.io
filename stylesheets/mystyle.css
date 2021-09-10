@@ -406,3 +406,15 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
   position: absolute;
   z-index: -1;
 }
+
+.wa-link-notification {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 0, 0);
+  display: block;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  right: 4px;
+  top: 4px;
+}
