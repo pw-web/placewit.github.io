@@ -331,3 +331,8 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
   right: 4px;
   top: 4px;
 }
+
+.company-img {
+  width: 30%;
+  display: inline-block!important;
+}
