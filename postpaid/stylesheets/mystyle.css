@@ -311,3 +311,24 @@ a:active.yellow-button, a:hover.yellow-button, a:focus.yellow-button {
   right: 4px;
   top: 4px;
 }
+
+#curriculum-overview-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 7px;
+  box-shadow: 0 2px 14px 0 rgba(181, 181, 181, 0.3);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+#curriculum-overview-table tr.clickable-header.expanded {
+  border: none;
+}
+
+#curriculum-overview-table tr.clickable-header.expanded td {
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+}
