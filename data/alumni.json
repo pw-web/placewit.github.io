@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Amit Kumar",
+    "image": "amitkumar.jpeg",
+    "companies": [
+      "google.svg"
+    ],
+    "ctc": "30L-35L",
+    "review": "It was a really very good experience. Placewit helped me to build a strong base regarding data structures and algorithms. I have got more used to programming and associated thinking and logical skills.",
+    "links": {
+      "quora": "https://qr.ae/pGSZIF",
+      "youtube": "https://youtu.be/2G7FFmufBto"
+    }
+  },
+  {
+    "name": "Md Shakir Alam",
+    "image": "mdshakir.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "I think for me, joining Placewit was the best decision I had taken last year. I would like to thank the whole team to give me this opportunity. Honestly, I had an awesome experience throughout the year. Last year, I knew only C++ language and nothing else. Now, I have improved a lot and was able to get my dream placement. The faculty is excellent. I have learnt a lot from Rishabh sir, special thanks to him. The way he taught us was amazing. In conclusion, I would say that I would recommend my juniors to join this, if anyone finds difficulty in coding.",
+    "links": {
+      "quora": "https://qr.ae/pGSeuo",
+      "youtube": "https://youtu.be/z5s0u8PsLRQ"
+    }
+  },
+  {
+    "name": "Prabhat Sahani",
+    "image": "prabhat.jpg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "45L-50L",
+    "review": "Been training with Placewit since January, and it has been a great learning experience. Before I started here, I used to lack confidence and had various fears due to lack of experience. Over the months, I've come to experience a lot and learned a lot, and I can now say I can behave in a much more confident manner when it comes to sitting for any interview. So thank you to all the mentors who have been a great help along the way.",
+    "links": {
+      "youtube": "https://youtu.be/5aEToatOGyA"
+    }
+  }
+]
