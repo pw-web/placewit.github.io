@@ -13,6 +13,54 @@
     }
   },
   {
+    "name": "Aditya Raj Sharma",
+    "image": "aditya-raj-sharma.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L",
+    "review": "Placewit helped me a lot that I can't even express. I felt zero in coding at some phase of time in my college and now the situation has changed immensely. They conducted mock interviews, which really helped me a lot in my preparation for the interviews, which I consider one of the many reasons for my growth. I will always be grateful to Placewit for how it impacted my life and helped me to get placed at Amazon. Placewit truly came as a blessing in my life.",
+    "links": {
+      "quora": "https://qr.ae/pvwNtK"
+    }
+  },
+  {
+    "name": "Prabhat Sahani",
+    "image": "prabhat.jpg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "45L-50L",
+    "review": "Been training with Placewit since January, and it has been a great learning experience. Before I started here, I used to lack confidence and had various fears due to lack of experience. Over the months, I've come to experience a lot and learned a lot, and I can now say I can behave in a much more confident manner when it comes to sitting for any interview. So thank you to all the mentors who have been a great help along the way.",
+    "links": {
+      "youtube": "https://youtu.be/5aEToatOGyA"
+    }
+  },
+  {
+    "name": "Vinitkumar Sanklecha",
+    "image": "vinitkumar-sanklecha.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L",
+    "review": "I joined placewit to get 100% ready for the placements and I think placewit made it much easy for me to accomplish the targets by guiding me through the right path and providing the right resources required for the preparation. I want to thank placewit for being such a lifesaver and helping me through my placement preparation.",
+    "links": {
+      "quora": "https://qr.ae/pvew8U"
+    }
+  },
+  {
+    "name": "Aditi Gedam",
+    "image": "aditigedam.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L",
+    "review": "I am happy to announce that I have been placed in Microsoft as a full-time SWE, and all credit goes to Placewit!! Kudos!!! Now I am more clear with my thoughts. Able to code the logic accurately. I am glad that I came to know about Placewit at the right time. A big shout out to team Placewit. Thank you so much ❤️",
+    "links": {
+      "quora": "https://qr.ae/pvbjCF"
+    }
+  },
+  {
     "name": "Md Shakir Alam",
     "image": "mdshakir.jpeg",
     "companies": [
@@ -26,15 +74,48 @@
     }
   },
   {
-    "name": "Prabhat Sahani",
-    "image": "prabhat.jpg",
+    "name": "Sangam Kumar",
+    "image": "sangamkumar.jpg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L",
+    "review": "I would like to thank Placewit for the awesome teaching on their part which helped me get placed in my dream company Microsoft. I joined Placewit to enhance my coding skills and will surely recommend it to my friends and juniors. There used to be 25 students in my batch and it was a very good experience as the instructor got to know everyone personally and gave attention to everyone. I became a good coder and also gained a lot of confidence!",
+    "links": {
+      "quora": "https://qr.ae/pvbxvD"
+    }
+  },
+  {
+    "name": "Muskan Mishra",
+    "image": "muskanmishra.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L",
+    "review": "Before joining Placewit I didn't know what to prepare and where and I was very confused about various road maps but Placewit provided good sources and prepared us for an interview and for coding rounds. Joining Placewit was the correct decision for me, and it helped me get placed at the Amazon. I’d recommend it for getting top placements and overall preparation related to every aspect of the placement season. I owe you a lot Placewit!",
+    "links": {
+      "quora": "https://qr.ae/pvbgmg"
+    }
+  },
+  {
+    "name": "Abhishek Kumar",
+    "image": "abhishekkumar.jpeg",
     "companies": [
       "microsoft.png"
     ],
     "ctc": "45L-50L",
-    "review": "Been training with Placewit since January, and it has been a great learning experience. Before I started here, I used to lack confidence and had various fears due to lack of experience. Over the months, I've come to experience a lot and learned a lot, and I can now say I can behave in a much more confident manner when it comes to sitting for any interview. So thank you to all the mentors who have been a great help along the way.",
+    "review": "It was a great experience learning here. I've definitely improved a lot since I joined Placewit. If anyone wants to kickstart their journey in coding and want to crack a product based company, I would recommend that you learn from Placewit. Great teaching and great mentoring."
+  },
+  {
+    "name": "Nimmi Diwakar",
+    "image": "coderavatar.png",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L",
+    "review": "Placewit definitely helped me increase my coding skills. It exposed me to a variety of coding questions and concepts. The coding contests helped me to get a habit of that. It cultivated the habit of solving more questions and asking doubts. And also there were selected questions to learn the concepts. I joined placewit to get placed in my dream company and yessss I achieved that ...Microsoft. PLACEWIT WAS A BOON FOR ME.",
     "links": {
-      "youtube": "https://youtu.be/5aEToatOGyA"
+      "quora": "https://qr.ae/pvbjG3"
     }
   },
   {
@@ -82,15 +163,6 @@
       "quora": "https://qr.ae/pGlcK4",
       "youtube": "https://youtu.be/EpEbE-6D2hs"
     }
-  },
-  {
-    "name": "Abhishek Kumar",
-    "image": "abhishekkumar.jpeg",
-    "companies": [
-      "microsoft.png"
-    ],
-    "ctc": "45L-50L",
-    "review": "It was a great experience learning here. I've definitely improved a lot since I joined Placewit. If anyone wants to kickstart their journey in coding and want to crack a product based company, I would recommend that you learn from Placewit. Great teaching and great mentoring."
   },
   {
     "name": "Md Irshad",
