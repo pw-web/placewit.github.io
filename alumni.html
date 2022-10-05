@@ -188,7 +188,7 @@
 	<div class="row no-gutters" id="student-life">
 		<div class="regular-content">
 			<div class="container">
-				<div class="mentor-row">
+				<div class="mentor-row" id="mentor-row">
 					<div class="row mentor-col-inner mb-5 d-flex align-items-center flex-md-row">
 						<div class="col-md-4 student-details">
 							<img class="avatar" src="images/students/amitkumar.jpeg">
@@ -684,12 +684,134 @@
 </body>
 
 <script>
-	$(document).ready(function () {
+	$(document).ready(() => {
 		$(".navbar-toggler").on("click", function () {
 			$(".menu-icon").toggleClass("open", !$(".navbar-collapse").hasClass("collapse show"));
 			$("#homepage-navbar-container").toggleClass("dusk-background", !$(".navbar-collapse").hasClass("collapse show"));
 			$("#homepage-header").toggleClass("top-offset", !$(".navbar-collapse").hasClass("collapse show"));
 		});
+
+		let mentorRowHtml = ``;
+
+		fetch("data/alumni.json")
+			.then(response => {
+				return response.json();
+			})
+			.then(data => {
+				const alumniRowHtml = createAlumniRowHtml(data);
+				$('#mentor-row').html(alumniRowHtml);
+			});
 	});
+
+	const showBannerAfterEveryNthRow = 4;
+	const bannersText = [
+		"Pay the fee only after you get a job paying more than the guaranteed CTC",
+		"Stay ahead of the competition and crack placements in top tech companies",
+		"Study for 8-10 months at no upfront cost and get an amazing placement",
+		"Upskill yourself in coding, subjects, resume, interviews, and much more"
+	];
+
+	function removeExtension(name) {
+		return name.split('.')[0];
+	}
+
+	function getBannerHtml(beforeIndex) {
+		if (beforeIndex === 0 || beforeIndex % showBannerAfterEveryNthRow !== 0) {
+			return ``;
+		}
+		const bannersIndex = (beforeIndex / showBannerAfterEveryNthRow - 1) % bannersText.length;
+		return `
+		<div class="row mentor-col-inner mb-5 d-flex align-items-center flex-md-row p-3"
+			 style="background: #3C4043;">
+			<div class="col-md-8 student-details">
+				<p style="color: white;">
+					${bannersText[bannersIndex]}
+				</p>
+			</div>
+			<div class="col-md-4 px-md-5">
+				<a class="my-3 yellow-button apply-button shadow apply-button-end"
+				   href="https://admission.placewit.com" target="_blank" role="button"
+				   id="yellow-button-application-process">APPLY NOW</a>
+			</div>
+		</div>
+		`;
+	}
+
+	function getCompaniesHtml(alumni) {
+		let companiesHtml = ``;
+		for (const company of alumni.companies) {
+			companiesHtml += `
+				<img class="company-img" src="images/companies/${company}" alt="${removeExtension(company)}"/>
+				<br/>
+			`;
+		}
+		return companiesHtml;
+	}
+
+	function getLinksHtml(alumni) {
+		let linksHtml = ``;
+		if (alumni.links) {
+			linksHtml += `
+			<h2 class="h5 mt-3 text-center">
+				<span class="pr-2">More on:</span>
+			`;
+			if (alumni.links.youtube) {
+				linksHtml += `
+					<a href="${alumni.links.youtube}" role="button" target="_blank">
+						<i class="fab fa-youtube fa-2x more-youtube"/>
+					</a>
+					&nbsp;
+				`;
+			}
+			if (alumni.links.quora) {
+				linksHtml += `
+					<a href="${alumni.links.quora}" role="button" target="_blank">
+						<i class="fab fa-quora fa-2x more-quora"/>
+					</a>
+					&nbsp;
+				`;
+			}
+			linksHtml += `
+			</h2>
+			`;
+		}
+		return linksHtml;
+	}
+
+	function createAlumniRowHtml(alumniArray) {
+		let mentorRowHtml = ``;
+
+		for (let i=0; i<alumniArray.length; i++) {
+			const alumni = alumniArray[i];
+
+			mentorRowHtml += `
+			${getBannerHtml(i)}
+			<div class="row mentor-col-inner mb-5 d-flex align-items-center flex-md-row">
+				<div class="col-md-4 student-details">
+					<img class="avatar" src="images/students/${alumni.image}" alt=""/>
+					<h3>${alumni.name}</h3>
+					<hr style="width: 80%"/>
+					<p class="mb-2">
+						Placed at
+					</p>
+					${getCompaniesHtml(alumni)}
+					<p class="my-2">
+						CTC: ${alumni.ctc}
+					</p>
+				</div>
+				<div class="col-md-8 px-md-5">
+					<p>
+						<b><sup><i class="fas fa-quote-left"></i></sup></b>
+						${alumni.review}
+						<b><sup><i class="fas fa-quote-right"></i></sup></b>
+					</p>
+
+					${getLinksHtml(alumni)}
+				</div>
+			</div>`;
+		}
+
+		return mentorRowHtml;
+	}
 </script>
 </html>
