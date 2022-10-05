@@ -36,5 +36,132 @@
     "links": {
       "youtube": "https://youtu.be/5aEToatOGyA"
     }
+  },
+  {
+    "name": "Krishnanunni P",
+    "image": "krishnanunni.jpeg",
+    "companies": [
+      "oracle.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Placewit is very much helpful for placements. Because it provides everything necessary for placement at one place, one doesn't have to roam around for right resources. Mentors are guiding each individual student at every step.",
+    "links": {
+      "youtube": "https://youtu.be/Ee0-ijqPyiM"
+    }
+  },
+  {
+    "name": "Abhishek Babbar",
+    "image": "abhishekbabbar.jpeg",
+    "companies": [
+      "urbancompany.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Placewit is a great platform to prepare for placements and strengthen your programming as well as soft skills. Mock interviews were also conducted regularly, which boosts the confidence upto a good level. It's been a great journey till now. After completing the course, I was able to crack an amazing placement.",
+    "links": {
+      "youtube": "https://youtu.be/88eH2GYx2PU"
+    }
+  },
+  {
+    "name": "Jitendra Kaswa",
+    "image": "jitendra.jpeg",
+    "companies": [
+      "rippling.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "My experience with Placewit is one of the best that I ever had on any other platform. The curriculum designed by Placewit helped me a lot to improve my coding skills and getting ready for placements. I loved the teaching methodology of the instructors. Right from the start, they focused on the foundation of the student, they helped to visualize the concepts and how one can apply them in their problem solving approach. The instructors are well versed in their work, they explained each doubt in detail. I would recommend everyone to take this course if they are looking for guidance from learning basics to getting chance to crack top notch software engineering companies."
+  },
+  {
+    "name": "Emmanuel Thomas",
+    "image": "emmanuel.jpeg",
+    "companies": [
+      "gameskraft.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Very well structured course which helps you learn many new things everyday. It covers all aspects of the product based companies' interviews and is also helpful for all rounded growth. The mentors and instructors are very helpful throughout. The homework and questions are carefully selected and was very much helpful in practice.",
+    "links": {
+      "quora": "https://qr.ae/pGlcK4",
+      "youtube": "https://youtu.be/EpEbE-6D2hs"
+    }
+  },
+  {
+    "name": "Abhishek Kumar",
+    "image": "abhishekkumar.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "45L-50L",
+    "review": "It was a great experience learning here. I've definitely improved a lot since I joined Placewit. If anyone wants to kickstart their journey in coding and want to crack a product based company, I would recommend that you learn from Placewit. Great teaching and great mentoring."
+  },
+  {
+    "name": "Md Irshad",
+    "image": "coderavatar.png",
+    "companies": [
+      "walmart.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "It was great experience learning here. The teachers and mentors were very helpful. I would definitely recommend it to someone who really wants to get placed in tech giants.",
+    "links": {
+      "quora": "https://qr.ae/pGSe5Q"
+    }
+  },
+  {
+    "name": "Govind JS",
+    "image": "govindjs.jpeg",
+    "companies": [
+      "oracle.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "As an Electronics student I always struggled whenever I tried to learn Competitive Programming by myself. I was afraid if I could crack a good placement. After joining Placewit, I was assigned great tutors and mentors. I was able to become really good in coding and got an opportunity to do some cool projects. During the placement drive, I was able to get placed in an amazing company."
+  },
+  {
+    "name": "Anurag Phulware",
+    "image": "anuragphulware.jpeg",
+    "companies": [
+      "amex-hz.png",
+      "blogvault.png"
+    ],
+    "ctc": "14L-18L",
+    "review": "It was a great journey. Got a clear roadmap of what really needs to be done for placement. The instructors and mentors were extremely supportive and the whole teaching process is simply flawless. It has really helped me, would definitely recommend for well planned development of one self in every sense a programmer should.",
+    "links": {
+      "quora": "https://qr.ae/pGSewn",
+      "youtube": "https://youtu.be/wY-sznPWWAI"
+    }
+  },
+  {
+    "name": "Abhishek Jain",
+    "image": "abhishekjain.jpeg",
+    "companies": [
+      "dpworld.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Very supportive and intellectual mentors with consistency, always there to help. Daily goals and strict deadlines with individual tracking helped to stay competitive and motivated. Lot of experience sharing by mentors and extra sessions guided to stick on right track."
+  },
+  {
+    "name": "Rao Abuzar",
+    "image": "raoabuzar.jpeg",
+    "companies": [
+      "infoedge.png",
+      "olaelectricbg.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "It was great to be a part of a classroom that always had something to learn, something to discuss. For a non-CS background student like me (little to no prior experience in DSA, CP, or Web), it was very welcoming and inclusive. Placewit gives time to every student to figure out the concepts and find one's strengths and weaknesses and work on overcoming their weaknesses. P.S: Placewit mentors, you guys showed a good amount of patience with me. Keep trying with students like me and make them feel capable."
+  },
+  {
+    "name": "Amar Singh",
+    "image": "amarsingh.jpeg",
+    "companies": [
+      "walmart.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Overall great structured program. Doubt support is amazingly good and quality of questions on each topic is to the point. Regular Interviews throughout the course which prepares for the unexpected and how to deal with questions which are not done previously. Development part is well programmed as well, be it WebD or ML."
+  },
+  {
+    "name": "Krishna Kant",
+    "image": "krishnakant.jpeg",
+    "companies": [
+      "citibank.png"
+    ],
+    "ctc": "14L-18L",
+    "review": "It was an amazing journey with Placewit for 6 months. Its classroom program helped me to strengthen my DSA concepts and achieve better understanding in competitive programming. When I joined Placewit I was in situation where it took lot of time to come up with brute force logic and after attending its classroom program, I'm getting optimum approach very quickly in CP. I learned different concepts in WebDev and did some interesting projects. I also learned different CS topics like OS, DBMS etc. One to one mentorship at Placewit was very helpful in clearing doubts, no matter whether it was regarding subjects, company or how to crack interviews. Weekly tests and frequent mock interviews helped me in building confidence and enhancing communication skills. I would like to thank Aman, Tejas, Ritik, Rishab and Gagan sir. Thank you Placewit."
   }
 ]
