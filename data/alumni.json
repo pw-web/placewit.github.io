@@ -107,18 +107,6 @@
     "review": "It was a great experience learning here. I've definitely improved a lot since I joined Placewit. If anyone wants to kickstart their journey in coding and want to crack a product based company, I would recommend that you learn from Placewit. Great teaching and great mentoring."
   },
   {
-    "name": "Nimmi Diwakar",
-    "image": "nimmidiwakar.jpeg",
-    "companies": [
-      "microsoft.png"
-    ],
-    "ctc": "50L-55L",
-    "review": "Placewit definitely helped me increase my coding skills. It exposed me to a variety of coding questions and concepts. The coding contests helped me to get a habit of that. It cultivated the habit of solving more questions and asking doubts. And also there were selected questions to learn the concepts. I joined placewit to get placed in my dream company and yessss I achieved that ...Microsoft. PLACEWIT WAS A BOON FOR ME.",
-    "links": {
-      "quora": "https://qr.ae/pvbjG3"
-    }
-  },
-  {
     "name": "Ravikant Vaishnav",
     "image": "ravikant-vaishnav.jpeg",
     "companies": [
@@ -128,6 +116,18 @@
     "review": "I am happy to announce I have been placed in Tekion corp as a full-time SWE. All credit goes to Placewit!! Placewit conducted regular mock interviews to make us familiar with the interviews we had to face to get a place in any company. After every interview, I felt the new push to study harder and work on my weak areas.",
     "links": {
       "quora": "https://qr.ae/pvUrxI"
+    }
+  },
+  {
+    "name": "Nimmi Diwakar",
+    "image": "nimmidiwakar.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L",
+    "review": "Placewit definitely helped me increase my coding skills. It exposed me to a variety of coding questions and concepts. The coding contests helped me to get a habit of that. It cultivated the habit of solving more questions and asking doubts. And also there were selected questions to learn the concepts. I joined placewit to get placed in my dream company and yessss I achieved that ...Microsoft. PLACEWIT WAS A BOON FOR ME.",
+    "links": {
+      "quora": "https://qr.ae/pvbjG3"
     }
   },
   {
@@ -359,14 +359,5 @@
     ],
     "ctc": "15L-20L",
     "review": "It was great to be a part of a classroom that always had something to learn, something to discuss. For a non-CS background student like me (little to no prior experience in DSA, CP, or Web), it was very welcoming and inclusive. Placewit gives time to every student to figure out the concepts and find one's strengths and weaknesses and work on overcoming their weaknesses. P.S: Placewit mentors, you guys showed a good amount of patience with me. Keep trying with students like me and make them feel capable."
-  },
-  {
-    "name": "Krishna Kant",
-    "image": "krishnakant.jpeg",
-    "companies": [
-      "citibank.png"
-    ],
-    "ctc": "14L-18L",
-    "review": "It was an amazing journey with Placewit for 6 months. Its classroom program helped me to strengthen my DSA concepts and achieve better understanding in competitive programming. When I joined Placewit I was in situation where it took lot of time to come up with brute force logic and after attending its classroom program, I'm getting optimum approach very quickly in CP. I learned different concepts in WebDev and did some interesting projects. I also learned different CS topics like OS, DBMS etc. One to one mentorship at Placewit was very helpful in clearing doubts, no matter whether it was regarding subjects, company or how to crack interviews. Weekly tests and frequent mock interviews helped me in building confidence and enhancing communication skills. I would like to thank Aman, Tejas, Ritik, Rishab and Gagan sir. Thank you Placewit."
   }
 ]
