@@ -192,6 +192,18 @@
     }
   },
   {
+    "name": "Ritik Kumar",
+    "image": "ritik-kumar.jpeg",
+    "companies": [
+      "visa.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Whatever I expected from placewit instructors, they were two-step ahead than I thought. Mentors, Projects (especially Augmented Reality), as well as Whole curriculum, were very disciplined. Joining Placewit was the correct decision for me, and it helped me to get placed at VISA.",
+    "links": {
+      "quora": "https://qr.ae/pvi333"
+    }
+  },
+  {
     "name": "Jitendra Kaswa",
     "image": "jitendra.jpeg",
     "companies": [
@@ -238,15 +250,36 @@
     }
   },
   {
-    "name": "Md Irshad",
-    "image": "coderavatar.png",
+    "name": "Amar Singh",
+    "image": "amarsingh.jpeg",
     "companies": [
       "walmart.png"
     ],
     "ctc": "20L-25L",
-    "review": "It was great experience learning here. The teachers and mentors were very helpful. I would definitely recommend it to someone who really wants to get placed in tech giants.",
+    "review": "Overall great structured program. Doubt support is amazingly good and quality of questions on each topic is to the point. Regular Interviews throughout the course which prepares for the unexpected and how to deal with questions which are not done previously. Development part is well programmed as well, be it WebD or ML."
+  },
+  {
+    "name": "Prashant Kaushal",
+    "image": "prashant-kaushal.jpg",
+    "companies": [
+      "junglee.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "I joined Placewit because before my 3 years of college I didn't do much coding, I only used to study DSA and did only a few questions. So this situation made me worried about the upcoming placements. Hence, I decided to follow a structured path in 3rd year so that I could get a good grip on placements, therefore I joined Placewit and will recommend my friends also to do the same so that you won't regret it later.",
     "links": {
-      "quora": "https://qr.ae/pGSe5Q"
+      "quora": "https://qr.ae/pvwbyU"
+    }
+  },
+  {
+    "name": "Sudev Dhali",
+    "image": "sudev-dhali.jpg",
+    "companies": [
+      "sapient.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Akshat Jain Sir(SDE @Rippling) was our mentor. He was a great teacher and really worked on us so that we can excel. Ishaan Sir(SDE @ Trilogy innovations) was our mentor. He helped us tremendously in growing confidence for interviews and really inculcated that within us. I used to be nervous earlier but now I am pretty confident in myself. I just wanna say it was really a great learning experience at placewit!!!",
+    "links": {
+      "quora": "https://qr.ae/pvg98f"
     }
   },
   {
@@ -271,13 +304,16 @@
     "review": "Very supportive and intellectual mentors with consistency, always there to help. Daily goals and strict deadlines with individual tracking helped to stay competitive and motivated. Lot of experience sharing by mentors and extra sessions guided to stick on right track."
   },
   {
-    "name": "Amar Singh",
-    "image": "amarsingh.jpeg",
+    "name": "Md Irshad",
+    "image": "coderavatar.png",
     "companies": [
       "walmart.png"
     ],
     "ctc": "20L-25L",
-    "review": "Overall great structured program. Doubt support is amazingly good and quality of questions on each topic is to the point. Regular Interviews throughout the course which prepares for the unexpected and how to deal with questions which are not done previously. Development part is well programmed as well, be it WebD or ML."
+    "review": "It was great experience learning here. The teachers and mentors were very helpful. I would definitely recommend it to someone who really wants to get placed in tech giants.",
+    "links": {
+      "quora": "https://qr.ae/pGSe5Q"
+    }
   },
   {
     "name": "Govind JS",
