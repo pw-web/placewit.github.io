@@ -14,5 +14,132 @@
       "optum.png"
     ],
     "linkedin": "https://www.linkedin.com/in/anshuman5/"
+  },
+  {
+    "name": "Priyanka Singh",
+    "image": "priyanka.jpg",
+    "companies": [
+      "flipkart.png"
+    ],
+    "linkedin": "https://www.linkedin.com/in/priyanka-singh-55a78174/"
+  },
+  {
+    "name": "Shruti Bansal",
+    "image": "shruti.jpg",
+    "companies": [
+      "sprinklr.png"
+    ]
+  },
+  {
+    "name": "Rishabh Kapar",
+    "image": "rishabh.jpeg",
+    "companies": [
+      "google.svg"
+    ]
+  },
+  {
+    "name": "Ishaan Jain",
+    "image": "ishaanjain.jpeg",
+    "companies": [
+      "codenation.png"
+    ]
+  },
+  {
+    "name": "Gagan Sharma",
+    "image": "gagan.jpeg",
+    "companies": [
+      "directi.jpg"
+    ]
+  },
+  {
+    "name": "Avigyan Das",
+    "image": "avigyan.jpeg",
+    "companies": [
+      "atlassian.png"
+    ]
+  },
+  {
+    "name": "Devashish Attri",
+    "image": "devashish.jpeg",
+    "companies": [
+      "amazon.png"
+    ]
+  },
+  {
+    "name": "Seemant Aggarwal",
+    "image": "seemant.jpeg",
+    "companies": [
+      "amazon.png"
+    ]
+  },
+  {
+    "name": "Anshaj Sharma",
+    "image": "anshaj.jpeg",
+    "companies": [
+      "amazon.png"
+    ]
+  },
+  {
+    "name": "Amrit Kumar",
+    "image": "sprinklr.png",
+    "companies": [
+      "amrit.jpeg"
+    ]
+  },
+  {
+    "name": "Mukul Kumar",
+    "image": "mukulkumar.jpeg",
+    "companies": [
+      "atlassian.png"
+    ]
+  },
+  {
+    "name": "Kshitij Jain",
+    "image": "coderavatar.png",
+    "companies": [
+      "google.svg"
+    ]
+  },
+  {
+    "name": "Akshay Mendole",
+    "image": "akshay.jpeg",
+    "companies": [
+      "zeta.png"
+    ]
+  },
+  {
+    "name": "Aksht Jain",
+    "image": "akshtjain.jpeg",
+    "companies": [
+      "rippling.png"
+    ]
+  },
+  {
+    "name": "Shivani Jain",
+    "image": "shivanijain.jpeg",
+    "companies": [
+      "wellsfargo.png"
+    ]
+  },
+  {
+    "name": "Abhi Chauhan",
+    "image": "abhichauhan.jpeg",
+    "companies": [
+      "amazon.png"
+    ]
+  },
+  {
+    "name": "Dhruv Bansal",
+    "image": "dhruvbansal.jpeg",
+    "companies": [
+      "deutsche.png"
+    ]
+  },
+  {
+    "name": "Ritik Aggarwal",
+    "image": "ritik.jpeg",
+    "companies": [
+      "citibank.png"
+    ]
   }
 ]
