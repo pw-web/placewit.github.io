@@ -691,8 +691,6 @@
 			$("#homepage-header").toggleClass("top-offset", !$(".navbar-collapse").hasClass("collapse show"));
 		});
 
-		let mentorRowHtml = ``;
-
 		fetch("data/alumni.json")
 			.then(response => {
 				return response.json();
