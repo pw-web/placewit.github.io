@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Aman Garg",
+    "image": "aman.jpg",
+    "companies": [
+      "amazon.png"
+    ],
+    "linkedin": "https://www.linkedin.com/in/heizaman/"
+  },
+  {
+    "name": "Anshuman Singh",
+    "image": "anshuman.jpeg",
+    "companies": [
+      "optum.png"
+    ],
+    "linkedin": "https://www.linkedin.com/in/anshuman5/"
+  }
+]
