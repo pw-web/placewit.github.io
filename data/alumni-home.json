@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Amit Kumar",
+    "image": "amitkumar.jpeg",
+    "companies": [
+      "google.svg"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Aditya Raj Sharma",
+    "image": "aditya-raj-sharma.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L"
+  },
+  {
+    "name": "Prabhat Sahani",
+    "image": "prabhat.jpg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "45L-50L"
+  },
+  {
+    "name": "Vinitkumar Sanklecha",
+    "image": "vinitkumar-sanklecha.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L"
+  },
+  {
+    "name": "Aditi Gedam",
+    "image": "aditigedam.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L"
+  },
+  {
+    "name": "Md Shakir Alam",
+    "image": "mdshakir.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Sangam Kumar",
+    "image": "sangamkumar.jpg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L"
+  },
+  {
+    "name": "Muskan Mishra",
+    "image": "muskanmishra.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L"
+  },
+  {
+    "name": "Abhishek Kumar",
+    "image": "abhishekkumar.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "45L-50L"
+  },
+  {
+    "name": "Nimmi Diwakar",
+    "image": "nimmidiwakar.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L"
+  },
+  {
+    "name": "Ravikant Vaishnav",
+    "image": "ravikant-vaishnav.jpeg",
+    "companies": [
+      "tekion.png"
+    ],
+    "ctc": "45L-50L"
+  },
+  {
+    "name": "Krishnanunni P",
+    "image": "krishnanunni.jpeg",
+    "companies": [
+      "oracle.png"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Abhishek",
+    "image": "abhishekbhatti.jpg",
+    "companies": [
+      "atlassian.png"
+    ],
+    "ctc": "35L-40L"
+  },
+  {
+    "name": "Abhishek Babbar",
+    "image": "abhishekbabbar.jpeg",
+    "companies": [
+      "urbancompany.png"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Jitendra Kaswa",
+    "image": "jitendra.jpeg",
+    "companies": [
+      "rippling.png"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Emmanuel Thomas",
+    "image": "emmanuel.jpeg",
+    "companies": [
+      "gameskraft.png"
+    ],
+    "ctc": "30L-35L"
+  },
+  {
+    "name": "Ashish Upadhyaya",
+    "image": "ashish-upadhyaya.jpeg",
+    "companies": [
+      "amagi.png"
+    ],
+    "ctc": "30L-35L"
+  }
+]
