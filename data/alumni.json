@@ -108,7 +108,7 @@
   },
   {
     "name": "Nimmi Diwakar",
-    "image": "coderavatar.png",
+    "image": "nimmidiwakar.jpeg",
     "companies": [
       "microsoft.png"
     ],
@@ -116,6 +116,30 @@
     "review": "Placewit definitely helped me increase my coding skills. It exposed me to a variety of coding questions and concepts. The coding contests helped me to get a habit of that. It cultivated the habit of solving more questions and asking doubts. And also there were selected questions to learn the concepts. I joined placewit to get placed in my dream company and yessss I achieved that ...Microsoft. PLACEWIT WAS A BOON FOR ME.",
     "links": {
       "quora": "https://qr.ae/pvbjG3"
+    }
+  },
+  {
+    "name": "Ravikant Vaishnav",
+    "image": "ravikant-vaishnav.jpeg",
+    "companies": [
+      "tekion.png"
+    ],
+    "ctc": "45L-50L",
+    "review": "I am happy to announce I have been placed in Tekion corp as a full-time SWE. All credit goes to Placewit!! Placewit conducted regular mock interviews to make us familiar with the interviews we had to face to get a place in any company. After every interview, I felt the new push to study harder and work on my weak areas.",
+    "links": {
+      "quora": "https://qr.ae/pvUrxI"
+    }
+  },
+  {
+    "name": "Aniket Jaiswal",
+    "image": "aniket-jaiswal.jpeg",
+    "companies": [
+      "navi.png"
+    ],
+    "ctc": "25L-30L",
+    "review": "Placewit provided a lot of resources to study from and their curriculum was awesome. They also helped me build confidence which was very much required for interviews and finally due to all the hard work I am so happy to tell that I have been placed in Navi as a full time SDE. I used to be an introvert kinda person but now I feel I’ve become extrovert because now I don’t hesitate to talk to people and give interviews. All thanks to Placewit!!",
+    "links": {
+      "quora": "https://qr.ae/pvg9Nc"
     }
   },
   {
@@ -131,6 +155,18 @@
     }
   },
   {
+    "name": "Rahul Singh",
+    "image": "coderavatar.png",
+    "companies": [
+      "atlassian.png"
+    ],
+    "ctc": "35L-40L",
+    "review": "To get placed in my dream company I joined Placewit and feel delighted to say I am placed in my dream company Atlassian.\n\nWithout Placewit’s help and guidance this thing may not have been possible for me. Now I am very much confident to face any interview or coding test. The best thing was the batch size. It was only 25, everyone used to get equal and personal attention.",
+    "links": {
+      "quora": "https://qr.ae/pvUrl1"
+    }
+  },
+  {
     "name": "Abhishek Babbar",
     "image": "abhishekbabbar.jpeg",
     "companies": [
@@ -140,6 +176,19 @@
     "review": "Placewit is a great platform to prepare for placements and strengthen your programming as well as soft skills. Mock interviews were also conducted regularly, which boosts the confidence upto a good level. It's been a great journey till now. After completing the course, I was able to crack an amazing placement.",
     "links": {
       "youtube": "https://youtu.be/88eH2GYx2PU"
+    }
+  },
+  {
+    "name": "Rakshit Khullar",
+    "image": "coderavatar.png",
+    "companies": [
+      "navi.png",
+      "oyo.png"
+    ],
+    "ctc": "25L-30L",
+    "review": "Mr. Amrit sir(SDE @ Sprinklr) was my instructor. He was very good, but his style of teaching was slow for 2-3 months. After that he was very good at teaching. Mr. Abhishek(SWE @ Microsoft) was my mentor. He has helped me very much, and even now he helps me a lot. By taking practice interviews, I became better day by day. I am much more confident about my placements as compared to day one here. Finally, I would like to say thanks to Placewit for the knowledge they could feed in me, and will always remember you guys!!",
+    "links": {
+      "quora": "https://qr.ae/pvgFue"
     }
   },
   {
@@ -165,6 +214,30 @@
     }
   },
   {
+    "name": "Sunkara Lakshmi Manasa",
+    "image": "coderavatar.png",
+    "companies": [
+      "cashfree.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "From day one at Placewit till today, I think I have changed from a person who didn’t know that leetcode existed to a person who gets a daily check-in point at leetcode and who tries to solve a minimum number of problems daily. Thankfully, I am placed at Cash Free beacuse of Placewit.",
+    "links": {
+      "quora": "https://qr.ae/pvbXWl"
+    }
+  },
+  {
+    "name": "Ashish Upadhyaya",
+    "image": "ashish-upadhyaya.jpeg",
+    "companies": [
+      "amagi.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Rishabh sir(SWE @ google), whose teaching style was quite good. Vivek sir(SWE @ Microsoft) was also good but , Mukul sir(SWE @ Atlassian) teaching was the best and Yash Sir discussed doubts that we used to come up with. I found out about Placewit from whatsapp and find myself so grateful for that, for sure I will recommend my friends and juniors to join Placewit. Placewit is the best platform to learn coding !!",
+    "links": {
+      "quora": "https://qr.ae/pvOdjI"
+    }
+  },
+  {
     "name": "Md Irshad",
     "image": "coderavatar.png",
     "companies": [
@@ -175,6 +248,36 @@
     "links": {
       "quora": "https://qr.ae/pGSe5Q"
     }
+  },
+  {
+    "name": "Siddhi Bhardwaj",
+    "image": "siddhi.jpeg",
+    "companies": [
+      "wellsfargo.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "I felt like an incomplete and under confident kid before joining placewit, but now I am confident. I came to learn all about placements which I didn't know at all before joining Placewit. It was an extraordinary experience in the end!",
+    "links": {
+      "quora": "https://qr.ae/pvwf0T"
+    }
+  },
+  {
+    "name": "Abhishek Jain",
+    "image": "abhishekjain.jpeg",
+    "companies": [
+      "dpworld.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Very supportive and intellectual mentors with consistency, always there to help. Daily goals and strict deadlines with individual tracking helped to stay competitive and motivated. Lot of experience sharing by mentors and extra sessions guided to stick on right track."
+  },
+  {
+    "name": "Amar Singh",
+    "image": "amarsingh.jpeg",
+    "companies": [
+      "walmart.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Overall great structured program. Doubt support is amazingly good and quality of questions on each topic is to the point. Regular Interviews throughout the course which prepares for the unexpected and how to deal with questions which are not done previously. Development part is well programmed as well, be it WebD or ML."
   },
   {
     "name": "Govind JS",
@@ -200,13 +303,16 @@
     }
   },
   {
-    "name": "Abhishek Jain",
-    "image": "abhishekjain.jpeg",
+    "name": "Neel B Majethiya",
+    "image": "neel-b-majethiya.jpeg",
     "companies": [
-      "dpworld.png"
+      "oracle.png"
     ],
-    "ctc": "20L-25L",
-    "review": "Very supportive and intellectual mentors with consistency, always there to help. Daily goals and strict deadlines with individual tracking helped to stay competitive and motivated. Lot of experience sharing by mentors and extra sessions guided to stick on right track."
+    "ctc": "15L-20L",
+    "review": "I was always struggling to prepare for Placement Season and was looking for a Complete Interview preparation course with Proper Guidance and loved the Demo Class therefore I decided to join this course. I would like to thank all my mentors and team Placewit whose collective efforts finally got me placed in Oracle!",
+    "links": {
+      "quora": "https://qr.ae/pvbQ3Z"
+    }
   },
   {
     "name": "Rao Abuzar",
@@ -217,15 +323,6 @@
     ],
     "ctc": "15L-20L",
     "review": "It was great to be a part of a classroom that always had something to learn, something to discuss. For a non-CS background student like me (little to no prior experience in DSA, CP, or Web), it was very welcoming and inclusive. Placewit gives time to every student to figure out the concepts and find one's strengths and weaknesses and work on overcoming their weaknesses. P.S: Placewit mentors, you guys showed a good amount of patience with me. Keep trying with students like me and make them feel capable."
-  },
-  {
-    "name": "Amar Singh",
-    "image": "amarsingh.jpeg",
-    "companies": [
-      "walmart.png"
-    ],
-    "ctc": "20L-25L",
-    "review": "Overall great structured program. Doubt support is amazingly good and quality of questions on each topic is to the point. Regular Interviews throughout the course which prepares for the unexpected and how to deal with questions which are not done previously. Development part is well programmed as well, be it WebD or ML."
   },
   {
     "name": "Krishna Kant",
