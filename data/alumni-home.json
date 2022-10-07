@@ -72,20 +72,20 @@
     "ctc": "45L-50L"
   },
   {
-    "name": "Nimmi Diwakar",
-    "image": "nimmidiwakar.jpeg",
-    "companies": [
-      "microsoft.png"
-    ],
-    "ctc": "50L-55L"
-  },
-  {
     "name": "Ravikant Vaishnav",
     "image": "ravikant-vaishnav.jpeg",
     "companies": [
       "tekion.png"
     ],
     "ctc": "45L-50L"
+  },
+  {
+    "name": "Nimmi Diwakar",
+    "image": "nimmidiwakar.jpeg",
+    "companies": [
+      "microsoft.png"
+    ],
+    "ctc": "50L-55L"
   },
   {
     "name": "Krishnanunni P",
