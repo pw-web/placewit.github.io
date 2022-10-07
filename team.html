@@ -191,10 +191,10 @@
 <section class="page-section" id="text">
 	<div class="row no-gutters" id="student-life">
 		<div class="regular-content">
-			<div class="container">
-				<div class="col-12 col-lg-5 mx-auto mb-5">
-					<h2 id="faculty-title-1" style="margin: 0px 0 13px;">Core Team</h2>
-				</div>
+			<div class="container" id="mentor-rows">
+<!--				<div class="col-12 col-lg-5 mx-auto mb-5">-->
+<!--					<h2 id="faculty-title-1" style="margin: 0px 0 13px;">Core Team</h2>-->
+<!--				</div>-->
 				<div class="row mentor-row">
 					<div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
 						<div class="mentor-col-inner">
@@ -251,9 +251,9 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-lg-7 mx-auto mb-5">
-					<h2 id="faculty-title-2">Instructors and Mentors</h2>
-				</div>
+<!--				<div class="col-12 col-lg-7 mx-auto mb-5">-->
+<!--					<h2 id="faculty-title-2">Instructors and Mentors</h2>-->
+<!--				</div>-->
 				<div class="row mentor-row">
 					<div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
 						<div class="mentor-col-inner">
@@ -541,6 +541,83 @@
 			$("#homepage-navbar-container").toggleClass("dusk-background", !$(".navbar-collapse").hasClass("collapse show"));
 			$("#homepage-header").toggleClass("top-offset", !$(".navbar-collapse").hasClass("collapse show"));
 		});
+
+		fetch("data/team.json")
+			.then(response => {
+				return response.json();
+			})
+			.then(data => {
+				const mentorRowsHtml = createMentorRowsHtml(data);
+				$('#mentor-rows').html(mentorRowsHtml);
+			});
+
+		function removeExtension(name) {
+			return name.split('.')[0];
+		}
+
+		function getLinksHtml(mentor) {
+			let linksHtml = ``;
+			if (mentor.linkedin) {
+				linksHtml += `
+					<a href="${mentor.linkedin}" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				`;
+			}
+			return linksHtml;
+		}
+
+		function createMentorRowsHtml(mentorArray) {
+			let mentorRowsHtml = ``;
+			let mentorArrayLength = mentorArray.length;
+			let i = 0;
+
+			while (i < mentorArrayLength) {
+				mentorRowsHtml += `<div class="row mentor-row">`;
+
+				for (let j=0; j<3; j++) {
+					if (i === mentorArrayLength)
+						break;
+					const mentor = mentorArray[i++];
+					const company = mentor.companies[0];
+					
+					mentorRowsHtml += `
+						<div class="order-1 order-md-1 col-md-6 col-lg-4 mentor-col">
+							<div class="mentor-col-inner">
+								<img class="avatar" src="images/team/${mentor.image}" alt=""/>
+								<h3>${mentor.name}</h3>
+								<p>
+									${company}
+								</p>
+								${getLinksHtml(mentor)}
+							</div>
+						</div>
+					`;
+				}
+
+				mentorRowsHtml += `</div>`;
+			}
+
+			mentorRowsHtml += `
+				<div class="row mentor-row mb-5">
+					<h3 style="margin: auto; margin-top: 30px;">...and many more experts to guide you</h3>
+				</div>
+
+				<hr/>
+
+				<div class="row" style="margin-top: 50px;">
+					<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle">
+						Get <b>guaranteed placement</b> with Placewit's Placement Guarantee Program at no upfront cost!
+						<br>
+						<a class="my-3 yellow-button apply-button shadow apply-button-end"
+						   href="https://admission.placewit.com" target="_blank" role="button"
+						   id="yellow-button-application-process">APPLY NOW</a>
+					</div>
+				</div>
+			`;
+
+			return mentorRowsHtml;
+		}
 	});
 </script>
 </html>

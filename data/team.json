@@ -3,7 +3,7 @@
     "name": "Aman Garg",
     "image": "aman.jpg",
     "companies": [
-      "amazon.png"
+      "Amazon"
     ],
     "linkedin": "https://www.linkedin.com/in/heizaman/"
   },
@@ -11,7 +11,7 @@
     "name": "Anshuman Singh",
     "image": "anshuman.jpeg",
     "companies": [
-      "optum.png"
+      "Optum"
     ],
     "linkedin": "https://www.linkedin.com/in/anshuman5/"
   },
@@ -19,7 +19,7 @@
     "name": "Priyanka Singh",
     "image": "priyanka.jpg",
     "companies": [
-      "flipkart.png"
+      "Flipkart"
     ],
     "linkedin": "https://www.linkedin.com/in/priyanka-singh-55a78174/"
   },
@@ -27,119 +27,119 @@
     "name": "Shruti Bansal",
     "image": "shruti.jpg",
     "companies": [
-      "sprinklr.png"
+      "Sprinklr"
     ]
   },
   {
     "name": "Rishabh Kapar",
     "image": "rishabh.jpeg",
     "companies": [
-      "google.svg"
+      "Google"
     ]
   },
   {
     "name": "Ishaan Jain",
     "image": "ishaanjain.jpeg",
     "companies": [
-      "codenation.png"
+      "Codenation"
     ]
   },
   {
     "name": "Gagan Sharma",
     "image": "gagan.jpeg",
     "companies": [
-      "directi.jpg"
+      "Directi (Media.net)"
     ]
   },
   {
     "name": "Avigyan Das",
     "image": "avigyan.jpeg",
     "companies": [
-      "atlassian.png"
+      "Atlassian"
     ]
   },
   {
     "name": "Devashish Attri",
     "image": "devashish.jpeg",
     "companies": [
-      "amazon.png"
+      "Amazon"
     ]
   },
   {
     "name": "Seemant Aggarwal",
     "image": "seemant.jpeg",
     "companies": [
-      "amazon.png"
+      "Amazon"
     ]
   },
   {
     "name": "Anshaj Sharma",
     "image": "anshaj.jpeg",
     "companies": [
-      "amazon.png"
+      "Amazon"
     ]
   },
   {
     "name": "Amrit Kumar",
-    "image": "sprinklr.png",
+    "image": "amrit.jpeg",
     "companies": [
-      "amrit.jpeg"
+      "Sprinklr"
     ]
   },
   {
     "name": "Mukul Kumar",
     "image": "mukulkumar.jpeg",
     "companies": [
-      "atlassian.png"
+      "Atlassian"
     ]
   },
   {
     "name": "Kshitij Jain",
     "image": "coderavatar.png",
     "companies": [
-      "google.svg"
+      "Google"
     ]
   },
   {
     "name": "Akshay Mendole",
     "image": "akshay.jpeg",
     "companies": [
-      "zeta.png"
+      "Zeta"
     ]
   },
   {
     "name": "Aksht Jain",
     "image": "akshtjain.jpeg",
     "companies": [
-      "rippling.png"
+      "Rippling"
     ]
   },
   {
     "name": "Shivani Jain",
     "image": "shivanijain.jpeg",
     "companies": [
-      "wellsfargo.png"
+      "Wells Fargo"
     ]
   },
   {
     "name": "Abhi Chauhan",
     "image": "abhichauhan.jpeg",
     "companies": [
-      "amazon.png"
+      "Amazon"
     ]
   },
   {
     "name": "Dhruv Bansal",
     "image": "dhruvbansal.jpeg",
     "companies": [
-      "deutsche.png"
+      "Deutsche Bank"
     ]
   },
   {
     "name": "Ritik Aggarwal",
     "image": "ritik.jpeg",
     "companies": [
-      "citibank.png"
+      "Citibank"
     ]
   }
 ]
