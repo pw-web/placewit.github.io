@@ -119,6 +119,19 @@
     }
   },
   {
+    "name": "Eqbal Khan",
+    "image": "eqbal-khan.jpeg",
+    "companies": [
+      "amazon.png",
+      "sapient.png"
+    ],
+    "ctc": "40L-45L",
+    "review": "I would like to thank Placewit for giving me the opportunity to attend such excellent classes and understand the concept deeply. I will definitely give credit to Placewit for making me a perfect candidate for a good company. Through my own hard work and guidance from mentors, and instructors, I was able to crack Amazon.",
+    "links": {
+      "quora": "https://qr.ae/pvDIvf"
+    }
+  },
+  {
     "name": "Nimmi Diwakar",
     "image": "nimmidiwakar.jpeg",
     "companies": [
@@ -128,6 +141,18 @@
     "review": "Placewit definitely helped me increase my coding skills. It exposed me to a variety of coding questions and concepts. The coding contests helped me to get a habit of that. It cultivated the habit of solving more questions and asking doubts. And also there were selected questions to learn the concepts. I joined placewit to get placed in my dream company and yessss I achieved that ...Microsoft. PLACEWIT WAS A BOON FOR ME.",
     "links": {
       "quora": "https://qr.ae/pvbjG3"
+    }
+  },
+  {
+    "name": "Abhishek",
+    "image": "abhishekbhatti.jpg",
+    "companies": [
+      "atlassian.png"
+    ],
+    "ctc": "35L-40L",
+    "review": "I joined placewit on the first place because I was surprised to see that how come they are offering all the core subject knowledge, along with DSA learning, along with Projects and guidance and that too in period of 6-7 months. I myself never did the planned preparation but I thought I’ll be able to have a well planned structure for my preparation if I join placewit. I will highly recommend any of my friend or junior to join placewit because now I can surely say if you'll take the curriculum they are offering seriously, the results are going to be far better than your expectations.",
+    "links": {
+      "quora": "https://qr.ae/pvJqY7"
     }
   },
   {
@@ -156,7 +181,7 @@
   },
   {
     "name": "Rahul Singh",
-    "image": "coderavatar.png",
+    "image": "rahulsingh.jpg",
     "companies": [
       "atlassian.png"
     ],
@@ -238,6 +263,18 @@
     }
   },
   {
+    "name": "Manvith Yadav Dega",
+    "image": "manvith.jpeg",
+    "companies": [
+      "oracle.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "I would like to thank Aksht sir, Aman sir, Seemant sir, Ishaan sir, Himanshu sir, Shubhank sir, Amisha ma'am and all Placewit team for helping me build my DSA skills, WebD skills and communication skills. Finally, with all the hardwork, I have recieved an offer from Oracle at SDE position.",
+    "links": {
+      "quora": "https://qr.ae/pvJ3q3"
+    }
+  },
+  {
     "name": "Ashish Upadhyaya",
     "image": "ashish-upadhyaya.jpeg",
     "companies": [
@@ -295,6 +332,18 @@
     }
   },
   {
+    "name": "Samar Vijeet",
+    "image": "samar-vijeet.jpeg",
+    "companies": [
+      "fortinet.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Mock interviews were really helpful, the feedback helped me a lot to improve. I joined placewit because nothing worked for me to resolve my consistency issue, also I wasn't able to find a good mentor to guide me until I met mentors at Placewit who guided me personally and tried to bring out the best in me.",
+    "links": {
+      "quora": "https://qr.ae/pvwfEO"
+    }
+  },
+  {
     "name": "Abhishek Jain",
     "image": "abhishekjain.jpeg",
     "companies": [
@@ -304,8 +353,20 @@
     "review": "Very supportive and intellectual mentors with consistency, always there to help. Daily goals and strict deadlines with individual tracking helped to stay competitive and motivated. Lot of experience sharing by mentors and extra sessions guided to stick on right track."
   },
   {
+    "name": "Arihant Shokeen",
+    "image": "arihant-shokeen.jpeg",
+    "companies": [
+      "hono.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Placewit is a lovely platform for preparation!! I will surely recommend placewit to juniors as it helps us to boost confidence and prepare well. I joined placewit for my placement preparation and to maintain consistency in my journey. The curriculum was excellent and the mentors were good too. The projects provided to us were of good quality and must tell that I meet all my expectations.",
+    "links": {
+      "quora": "https://qr.ae/pvbVQF"
+    }
+  },
+  {
     "name": "Md Irshad",
-    "image": "coderavatar.png",
+    "image": "mdirshad.jpeg",
     "companies": [
       "walmart.png"
     ],
@@ -313,6 +374,18 @@
     "review": "It was great experience learning here. The teachers and mentors were very helpful. I would definitely recommend it to someone who really wants to get placed in tech giants.",
     "links": {
       "quora": "https://qr.ae/pGSe5Q"
+    }
+  },
+  {
+    "name": "Arindam Paria",
+    "image": "arindam-paria.png",
+    "companies": [
+      "sapient.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "My dsa has improved and my desire to learn more about algorithms has also increased a lot. I was totally satisfied with the dsa part. It was more than enough. My instructors were also so good. I personally thank placewit for making me so confident in dsa. Finally I got a placement offer from PUBLICIS SAPIENT at SDE position. Thanks a lot Placewit!!",
+    "links": {
+      "quora": "https://qr.ae/pvJuql"
     }
   },
   {
@@ -336,6 +409,19 @@
     "links": {
       "quora": "https://qr.ae/pGSewn",
       "youtube": "https://youtu.be/wY-sznPWWAI"
+    }
+  },
+  {
+    "name": "Shubhi Singh",
+    "image": "shubhi-singh.jpeg",
+    "companies": [
+      "thoughtspot.png",
+      "amazon.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "I appreciate every member of this team for the hard work you did for us. Wherever I reach in my career, your contribution to leading me on the right path in these seven months will be something I will always be thankful for. I have improved and grown a lot if I see where I was on day 1 of placewit.",
+    "links": {
+      "quora": "https://qr.ae/pvbXsG"
     }
   },
   {

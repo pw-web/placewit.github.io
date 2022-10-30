@@ -80,6 +80,14 @@
     "ctc": "45L-50L"
   },
   {
+    "name": "Eqbal Khan",
+    "image": "eqbal-khan.jpeg",
+    "companies": [
+      "amazon.png"
+    ],
+    "ctc": "40L-45L"
+  },
+  {
     "name": "Nimmi Diwakar",
     "image": "nimmidiwakar.jpeg",
     "companies": [
@@ -118,6 +126,14 @@
       "rippling.png"
     ],
     "ctc": "30L-35L"
+  },
+  {
+    "name": "Rahul Singh",
+    "image": "rahulsingh.jpg",
+    "companies": [
+      "atlassian.png"
+    ],
+    "ctc": "35L-40L"
   },
   {
     "name": "Emmanuel Thomas",
