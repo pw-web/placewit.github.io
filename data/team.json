@@ -1,7 +1,7 @@
 [
   {
     "name": "Aman Garg",
-    "image": "aman.jpg",
+    "image": "aman.jpeg",
     "companies": [
       "Amazon"
     ],
@@ -24,10 +24,52 @@
     "linkedin": "https://www.linkedin.com/in/priyanka-singh-55a78174/"
   },
   {
-    "name": "Shruti Bansal",
-    "image": "shruti.jpg",
+    "name": "Amish Marwaha",
+    "image": "amish.jpeg",
     "companies": [
       "Sprinklr"
+    ]
+  },
+  {
+    "name": "Aditi Kumari",
+    "image": "aditi.jpeg",
+    "companies": [
+      "Google"
+    ]
+  },
+  {
+    "name": "Harshit Varshney",
+    "image": "harshit.jpeg",
+    "companies": [
+      "Amazon"
+    ]
+  },
+  {
+    "name": "Janmansh Agarwal",
+    "image": "janmansh.jpg",
+    "companies": [
+      "Uber"
+    ]
+  },
+  {
+    "name": "Ishaan Jain",
+    "image": "ishaanjain.jpeg",
+    "companies": [
+      "Codenation"
+    ]
+  },
+  {
+    "name": "Meghna Barnwal",
+    "image": "meghna.jpeg",
+    "companies": [
+      "Google"
+    ]
+  },
+  {
+    "name": "Shivam Sharma",
+    "image": "shivam.jpeg",
+    "companies": [
+      "Microsoft"
     ]
   },
   {
@@ -38,10 +80,10 @@
     ]
   },
   {
-    "name": "Ishaan Jain",
-    "image": "ishaanjain.jpeg",
+    "name": "Shruti Bansal",
+    "image": "shruti.jpg",
     "companies": [
-      "Codenation"
+      "Sprinklr"
     ]
   },
   {
@@ -56,6 +98,13 @@
     "image": "avigyan.jpeg",
     "companies": [
       "Atlassian"
+    ]
+  },
+  {
+    "name": "Vibhay Singh",
+    "image": "coderavatar.png",
+    "companies": [
+      "Tekion Corp"
     ]
   },
   {
