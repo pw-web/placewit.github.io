@@ -1,17 +1,9 @@
 [
   {
-    "name": "Aman Garg",
-    "image": "aman.jpeg",
-    "companies": [
-      "Amazon"
-    ],
-    "linkedin": "https://www.linkedin.com/in/heizaman/"
-  },
-  {
     "name": "Anshuman Singh",
     "image": "anshuman.jpeg",
     "companies": [
-      "Optum"
+      "Placewit"
     ],
     "linkedin": "https://www.linkedin.com/in/anshuman5/"
   },
@@ -22,6 +14,14 @@
       "Flipkart"
     ],
     "linkedin": "https://www.linkedin.com/in/priyanka-singh-55a78174/"
+  },
+  {
+    "name": "Aman Garg",
+    "image": "aman.jpeg",
+    "companies": [
+      "Amazon"
+    ],
+    "linkedin": "https://www.linkedin.com/in/heizaman/"
   },
   {
     "name": "Amish Marwaha",
