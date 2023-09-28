@@ -1246,15 +1246,35 @@
 				<hr/>
 
 				<div class="row mb-3" style="margin-top: 60px;">
+					<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle">
+						Take a sneak peek at our learning platform
+						<br/>
+						<div class="slider" id="screenshotsSlide">
+							<img width="90%" src="images/screenshots/1.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/2.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/3.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/4.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/5.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/6.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/7.png" style="border-radius: 10px"/>
+							<img width="90%" src="images/screenshots/8.png" style="border-radius: 10px"/>
+						</div>
+						<a class="yellow-button apply-button shadow apply-button-end" href="https://learn.placewit.com" target="_blank" role="button" id="yellow-button-application-process">EXPLORE FREE RESOURCES</a>
+						<p class="copy-after-button mb-0">Free access to 50+ self-paced courses, learning roadmaps, jobs, interview experiences, company-wise preparation guides, and more!</p>
+					</div>
+				</div>
+
+				<hr/>
+
+				<div class="row mb-3" style="margin-top: 60px;">
 					<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle mb-2">
-						<h3>Join Our Awesome Community</h3>
+						<h3>Take the first step towards your dream tech career</h3>
 					</div>
 					<br/>
 					<div class="col-12 col-lg-8 H2-Subtitle mx-auto" id="global-community-subtitle">
-						Placewit also offers placement-focussed free resources for learning like courses, resume reviews, mock
-						interviews, mentorship sessions, etc.
-						<br>
-						<a class="yellow-button apply-button shadow apply-button-end" href="https://discord.gg/gQJ79cnjg6" target="_blank" role="button" id="yellow-button-application-process">JOIN DISCORD</a>
+						Apply for the Placewit Placement Program and start your journey to a successful tech career today!
+						<br/>
+						<a class="yellow-button apply-button shadow apply-button-end" href="https://admission.placewit.com" target="_blank" role="button" id="yellow-button-application-process">APPLY NOW</a>
 					</div>
 				</div>
 			</div>
@@ -1390,6 +1410,15 @@
 					]
 				});
 			});
+
+		$('#screenshotsSlide').slick({
+			autoplay: true,
+			autoplaySpeed: 3000,
+			dots: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false
+		});
 	});
 
 	function removeExtension(name) {
