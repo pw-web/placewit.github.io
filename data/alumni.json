@@ -1,7 +1,7 @@
 [
   {
     "name": "Amit Kumar",
-    "image": "amitkumar.jpeg",
+    "image": "amit-kumar.jpeg",
     "companies": [
       "google.svg"
     ],
@@ -26,7 +26,7 @@
   },
   {
     "name": "Prabhat Sahani",
-    "image": "prabhat.jpg",
+    "image": "prabhat-sahani.jpeg",
     "companies": [
       "microsoft.png"
     ],
@@ -38,7 +38,7 @@
   },
   {
     "name": "Vinitkumar Sanklecha",
-    "image": "vinitkumar-sanklecha.jpeg",
+    "image": "vinitkumar.jpeg",
     "companies": [
       "amazon.png"
     ],
@@ -62,7 +62,7 @@
   },
   {
     "name": "Md Shakir Alam",
-    "image": "mdshakir.jpeg",
+    "image": "shakir-alam.jpeg",
     "companies": [
       "amazon.png"
     ],
@@ -157,7 +157,7 @@
   },
   {
     "name": "Aniket Jaiswal",
-    "image": "aniket-jaiswal.jpeg",
+    "image": "aniket-jaiswal-navi.jpeg",
     "companies": [
       "navi.png"
     ],
@@ -193,7 +193,7 @@
   },
   {
     "name": "Abhishek Babbar",
-    "image": "abhishekbabbar.jpeg",
+    "image": "abhishek-babbar.jpeg",
     "companies": [
       "urbancompany.png"
     ],
@@ -205,7 +205,7 @@
   },
   {
     "name": "Rakshit Khullar",
-    "image": "rakshit-khullar.jpeg",
+    "image": "rakshit-khullar-navi.jpeg",
     "companies": [
       "navi.png",
       "oyo.png"
@@ -218,7 +218,7 @@
   },
   {
     "name": "Ritik Kumar",
-    "image": "ritik-kumar.jpeg",
+    "image": "ritik-kumar-visa.jpeg",
     "companies": [
       "visa.png"
     ],
@@ -264,7 +264,7 @@
   },
   {
     "name": "Manvith Yadav Dega",
-    "image": "manvith.jpeg",
+    "image": "manvith-yadav-dega.jpeg",
     "companies": [
       "oracle.png"
     ],
@@ -297,7 +297,7 @@
   },
   {
     "name": "Prashant Kaushal",
-    "image": "prashant-kaushal.jpg",
+    "image": "prashant-kaushal.jpeg",
     "companies": [
       "junglee.png"
     ],
@@ -321,7 +321,7 @@
   },
   {
     "name": "Siddhi Bhardwaj",
-    "image": "siddhi.jpeg",
+    "image": "siddhi-bhardwaj.jpeg",
     "companies": [
       "wellsfargo.png"
     ],
