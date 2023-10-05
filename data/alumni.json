@@ -238,6 +238,18 @@
     "review": "My experience with Placewit is one of the best that I ever had on any other platform. The curriculum designed by Placewit helped me a lot to improve my coding skills and getting ready for placements. I loved the teaching methodology of the instructors. Right from the start, they focused on the foundation of the student, they helped to visualize the concepts and how one can apply them in their problem solving approach. The instructors are well versed in their work, they explained each doubt in detail. I would recommend everyone to take this course if they are looking for guidance from learning basics to getting chance to crack top notch software engineering companies."
   },
   {
+    "name": "Nitik Garg",
+    "image": "nitik-garg.png",
+    "companies": [
+      "urbancompany.png"
+    ],
+    "ctc": "30L-35L",
+    "review": "Placewit is such a beautiful platform to practice coding. Before joining placewit, I used to have a fear of major topics like dynamic programming, graphs, etc. But now the fear of those concepts has gone entirely. Now I am confident and have the required skills to get into the tech industry and know what are necessary steps to be taken in the future to achieve my dream goals. Placewit helped me a lot in clearing my doubts and provided me confidence while problem-solving.",
+    "links": {
+      "quora": "https://qr.ae/pvZddw"
+    }
+  },
+  {
     "name": "Emmanuel Thomas",
     "image": "emmanuel.jpeg",
     "companies": [
@@ -377,6 +389,18 @@
     }
   },
   {
+    "name": "Jahnavi Matsa",
+    "image": "coderavatar.png",
+    "companies": [
+      "junglee.png"
+    ],
+    "ctc": "20L-25L",
+    "review": "Regular classes used to be organized by Placewit which helped me in improving my coding skills and thinking ability to a great extent. By conducting mock interviews and placement preparation sessions helped us to clear all doubts and myths we used to have regarding the interviews. On day 1 I didn't know anything about DSA but now I am able to solve and understand any set of problems. At the end I just want to make request to Placewit for Increasing the number of batches so that many people get benefitted :)",
+    "links": {
+      "quora": "https://qr.ae/pvZlIT"
+    }
+  },
+  {
     "name": "Arindam Paria",
     "image": "arindam-paria.png",
     "companies": [
@@ -396,6 +420,18 @@
     ],
     "ctc": "15L-20L",
     "review": "As an Electronics student I always struggled whenever I tried to learn Competitive Programming by myself. I was afraid if I could crack a good placement. After joining Placewit, I was assigned great tutors and mentors. I was able to become really good in coding and got an opportunity to do some cool projects. During the placement drive, I was able to get placed in an amazing company."
+  },
+  {
+    "name": "Tanuj Parkash",
+    "image": "tanuj-parkash.jpeg",
+    "companies": [
+      "c-dot.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "Before placewit I was below average in coding. I just used to solve questions with a brute force approach. After Placewit, I saw a significant change in myself. Now I am able to solve any kind of standard problem even with tricky follow ups. Thanks a lot to the entire Placewit team for the wonderful, fun and knowledge filled journey.",
+    "links": {
+      "quora": "https://qr.ae/pvmg0m"
+    }
   },
   {
     "name": "Anurag Phulware",
@@ -437,6 +473,18 @@
     }
   },
   {
+    "name": "Siddareddygari Amrutha",
+    "image": "amrutha.png",
+    "companies": [
+      "deutsche.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "I would definitely recommend it to others also because placewit not only teaches us about studies it also makes us learn many things about life. Placewit cares for everyone. I didn't even think I would get placed that fast. But I did get placed within 15 days since placements started at Deutsche Bank. That shows how much I have learnt from Placewit and how much Placewit has changed me.",
+    "links": {
+      "quora": "https://qr.ae/pvZm33"
+    }
+  },
+  {
     "name": "Rao Abuzar",
     "image": "raoabuzar.jpeg",
     "companies": [
@@ -445,5 +493,17 @@
     ],
     "ctc": "15L-20L",
     "review": "It was great to be a part of a classroom that always had something to learn, something to discuss. For a non-CS background student like me (little to no prior experience in DSA, CP, or Web), it was very welcoming and inclusive. Placewit gives time to every student to figure out the concepts and find one's strengths and weaknesses and work on overcoming their weaknesses. P.S: Placewit mentors, you guys showed a good amount of patience with me. Keep trying with students like me and make them feel capable."
+  },
+  {
+    "name": "Zeeshan Quamar ",
+    "image": "zeeshan.jpeg",
+    "companies": [
+      "c-dot.png"
+    ],
+    "ctc": "15L-20L",
+    "review": "I will definitely encourage my juniors to join Placewit for structured learning and getting placed at good companies with high CTCs. The batch size was really very small; around 25 students were there in my batch, so instructors gave attention to all the students individually, the classes were always two way communication. I always get my doubts cleared from the instructor. Placewit you are just awesome!!",
+    "links": {
+      "quora": "https://qr.ae/pvOGi5"
+    }
   }
 ]
