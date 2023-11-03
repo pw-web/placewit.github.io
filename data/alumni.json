@@ -144,6 +144,19 @@
     }
   },
   {
+    "name": "Ashok Kumar",
+    "image": "ashok-kumar.jpg",
+    "companies": [
+      "amazon.png",
+      "c-dot.png"
+    ],
+    "ctc": "40L-45L",
+    "review": "I joined Placewit because I was lacking in my coding skills and fundamentals. Now my fundamentals are strong and i have clarity of topics. I can now solve the problem from which i was feared before. Small batch size (20-25 students) helps in individual attention by instructor. I can ask all my doubts in class. Placewit has given me knowledge and motivation which I needed to improve myself. Mock interviews were very helpful for improving my communication and being fimilar with interview environment. I am satisfied with overall programme. It is very helpful for students who are feeling demotivated about their preparation. I am grateful to my instructors, vivek sir and mentors, aman sir and all placewit team.",
+    "links": {
+      "youtube": "https://youtu.be/iENMA45XoZM"
+    }
+  },
+  {
     "name": "Abhishek",
     "image": "abhishekbhatti.jpg",
     "companies": [
